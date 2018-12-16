@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1548E6E2-B5B0-435A-95ED-1A28F04E3748" name="Modulo">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:57:29 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="E8E2D9B0-62D1-EFB5-8A17-4DF02C084238">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:57:37 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="A8A5C832-AB46-AE6F-DA18-DACC12909CAB">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:57:51 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPersona" id="BA769251-9826-7B68-FF4E-7C5F6EEC0BE5">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:59:02 UTC</createdTime>
+<generatorID>B2A6C93C-9EE0-67DE-FD17-030702ECF33A</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<referedAttribute>FA1CC5E6-1D94-BA50-3F84-EA0200D4E68D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCurso" id="9399377C-1D18-EA93-70CE-20FEB35E2D8D">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 13:00:41 UTC</createdTime>
+<generatorID>BD3BFF0A-D71D-11B2-3D33-7B673AFBEC41</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<referedAttribute>A493DF8F-4C91-85B6-D3AF-A71B406F638C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9647351E-604F-5F19-4E0D-A5D306A811E9" name="Modulo PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:57:46 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E8E2D9B0-62D1-EFB5-8A17-4DF02C084238</attributeRef>
+<attributeRef>9399377C-1D18-EA93-70CE-20FEB35E2D8D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

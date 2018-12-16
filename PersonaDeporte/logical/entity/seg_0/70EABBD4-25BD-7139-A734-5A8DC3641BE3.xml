@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70EABBD4-25BD-7139-A734-5A8DC3641BE3" name="Persona">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:06:02 UTC</createdTime>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<engineerTo>
+<item key="7A8DF8E0-5480-AF51-16B4-7D81867376D0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPersona" id="AF1F089F-4DFB-691E-8067-4C729A7B83EE">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:06:11 UTC</createdTime>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<engineerTo>
+<item key="7A8DF8E0-5480-AF51-16B4-7D81867376D0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E7D40B8B-616A-EF98-91F7-AA9BA8902A8D">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:06:12 UTC</createdTime>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<engineerTo>
+<item key="7A8DF8E0-5480-AF51-16B4-7D81867376D0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="eCivil" id="38C16013-493D-56CD-9822-EAA6F6113111">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:06:14 UTC</createdTime>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<engineerTo>
+<item key="7A8DF8E0-5480-AF51-16B4-7D81867376D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<domain>00F88AE5-8924-7154-80A5-1A4D14820BFE</domain>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numHijos" id="ADB846B4-AE22-8B80-729A-BB74A803DB8C">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:06:16 UTC</createdTime>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<engineerTo>
+<item key="7A8DF8E0-5480-AF51-16B4-7D81867376D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>85332AEB-8535-2025-68B5-083D389E8A48</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>9</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE60141A-5049-57D1-DB29-506152A2AAE5" name="Persona PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:09:36 UTC</createdTime>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7A8DF8E0-5480-AF51-16B4-7D81867376D0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF1F089F-4DFB-691E-8067-4C729A7B83EE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

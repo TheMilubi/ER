@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="360F1233-1DB1-5108-E9F7-1029D5E10898" name="Cuartel">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:38:57 UTC</createdTime>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<engineerTo>
+<item key="1397418E-13AB-301E-A8D3-4A0A5B51C96B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idCuartel" id="90ECFDB8-7BC8-D971-1B6C-43923B014CB5">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:39:07 UTC</createdTime>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<engineerTo>
+<item key="1397418E-13AB-301E-A8D3-4A0A5B51C96B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="711380F0-7E8D-3069-0ED9-8F4C85094F80">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:39:18 UTC</createdTime>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<engineerTo>
+<item key="1397418E-13AB-301E-A8D3-4A0A5B51C96B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ubicacion" id="67FE1570-2234-8B14-F933-C59C51909CF3">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:39:45 UTC</createdTime>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<engineerTo>
+<item key="1397418E-13AB-301E-A8D3-4A0A5B51C96B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1EDB4D99-6EC4-E1EE-5A36-95FA6FB20DFA" name="Cuartel PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:39:56 UTC</createdTime>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1397418E-13AB-301E-A8D3-4A0A5B51C96B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90ECFDB8-7BC8-D971-1B6C-43923B014CB5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

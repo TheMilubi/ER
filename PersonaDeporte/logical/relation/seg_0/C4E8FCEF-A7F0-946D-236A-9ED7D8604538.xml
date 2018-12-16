@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRACTICA" directorySegmentName="seg_0" id="C4E8FCEF-A7F0-946D-236A-9ED7D8604538">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:16:36 UTC</createdTime>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<engineerTo>
+<item key="7A8DF8E0-5480-AF51-16B4-7D81867376D0" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>70EABBD4-25BD-7139-A734-5A8DC3641BE3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>20FF652C-2D2E-1C89-6792-A91D695398F7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

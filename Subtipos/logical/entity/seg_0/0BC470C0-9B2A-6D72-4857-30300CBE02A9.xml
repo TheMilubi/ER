@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BC470C0-9B2A-6D72-4857-30300CBE02A9" name="Localidad">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:36:40 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idLocalidad" id="60D281A6-C86E-4618-4DE6-94869BB7ADC3">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:36:48 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="226AC5F7-1704-0CD6-4B02-7D30CD60E558">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:36:58 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D171819B-BD1C-84D6-F234-DA004EEF0148" name="Localidad PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:37:26 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60D281A6-C86E-4618-4DE6-94869BB7ADC3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

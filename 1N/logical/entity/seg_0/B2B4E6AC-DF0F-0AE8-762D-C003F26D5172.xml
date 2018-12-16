@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2B4E6AC-DF0F-0AE8-762D-C003F26D5172" name="Profesor">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:12:32 UTC</createdTime>
+<ownerDesignName>1N</ownerDesignName>
+<engineerTo>
+<item key="7B723B2F-FCD9-8566-2E69-52E6544E05CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idProfesor" id="6264FD50-AEDD-EC26-8778-7EC778EFC503">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:13:01 UTC</createdTime>
+<ownerDesignName>1N</ownerDesignName>
+<engineerTo>
+<item key="7B723B2F-FCD9-8566-2E69-52E6544E05CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="05D140BD-708E-AB28-E6B0-E875140DD131">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:13:02 UTC</createdTime>
+<ownerDesignName>1N</ownerDesignName>
+<engineerTo>
+<item key="7B723B2F-FCD9-8566-2E69-52E6544E05CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="AD4DEBB6-9F63-95C5-669B-716559F4E70C">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:13:03 UTC</createdTime>
+<ownerDesignName>1N</ownerDesignName>
+<engineerTo>
+<item key="7B723B2F-FCD9-8566-2E69-52E6544E05CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaNac" id="5ACA9754-92F7-B575-F74A-0585808A4B69">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:13:03 UTC</createdTime>
+<ownerDesignName>1N</ownerDesignName>
+<engineerTo>
+<item key="7B723B2F-FCD9-8566-2E69-52E6544E05CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="27593AA8-0580-015E-06DF-142B51E89965" name="Profesor PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:16:47 UTC</createdTime>
+<ownerDesignName>1N</ownerDesignName>
+<engineerTo>
+<item key="7B723B2F-FCD9-8566-2E69-52E6544E05CF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6264FD50-AEDD-EC26-8778-7EC778EFC503</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

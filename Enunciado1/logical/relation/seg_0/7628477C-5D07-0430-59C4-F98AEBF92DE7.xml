@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SITUADA EN" directorySegmentName="seg_0" id="7628477C-5D07-0430-59C4-F98AEBF92DE7">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:54:31 UTC</createdTime>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<engineerTo>
+<item key="1397418E-13AB-301E-A8D3-4A0A5B51C96B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>360F1233-1DB1-5108-E9F7-1029D5E10898</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4B34FF45-1250-C7A1-40F1-E38E73D0AF22</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

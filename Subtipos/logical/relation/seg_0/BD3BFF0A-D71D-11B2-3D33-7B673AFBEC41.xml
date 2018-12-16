@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TIENE" directorySegmentName="seg_0" id="BD3BFF0A-D71D-11B2-3D33-7B673AFBEC41">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 13:00:41 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<sourcePk>AF9F5279-7213-9F71-2B4C-FE5006B8341F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>19D8C5EA-E5D8-0B58-2941-A41DC2CBE4E2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1548E6E2-B5B0-435A-95ED-1A28F04E3748</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

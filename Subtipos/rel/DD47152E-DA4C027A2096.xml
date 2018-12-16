@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" mainViewID="D996DC40-0BCA-03D9-23C2-B39D7106977F">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:31:28 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

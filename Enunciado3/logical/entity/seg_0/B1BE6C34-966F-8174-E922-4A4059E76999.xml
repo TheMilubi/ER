@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1BE6C34-966F-8174-E922-4A4059E76999" name="Vuelo">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 10:00:54 UTC</createdTime>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<engineerTo>
+<item key="1A6D9DE0-6973-EE4E-3775-A90B53D8BB2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idVuelo" id="2C6AC430-3767-914D-807C-B622FDEC1B9F">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 10:08:01 UTC</createdTime>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<engineerTo>
+<item key="1A6D9DE0-6973-EE4E-3775-A90B53D8BB2C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="origen" id="E4037AD0-EC01-DBE9-37C8-B14419CBC950">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 10:08:12 UTC</createdTime>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<engineerTo>
+<item key="1A6D9DE0-6973-EE4E-3775-A90B53D8BB2C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="destino" id="57B181E6-0202-B46C-471F-6A0193594CB2">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 10:08:34 UTC</createdTime>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<engineerTo>
+<item key="1A6D9DE0-6973-EE4E-3775-A90B53D8BB2C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plazasPrimera" id="568E96F3-CC79-4CEA-1BA8-9DC34690AADC">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 10:08:44 UTC</createdTime>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<engineerTo>
+<item key="1A6D9DE0-6973-EE4E-3775-A90B53D8BB2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plazasTurista" id="FD0FADAB-5902-FD82-BC31-8D923786D740">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 10:09:19 UTC</createdTime>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<engineerTo>
+<item key="1A6D9DE0-6973-EE4E-3775-A90B53D8BB2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="A579D5FD-AE06-4737-5818-34F6333A5276">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 10:10:01 UTC</createdTime>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<engineerTo>
+<item key="1A6D9DE0-6973-EE4E-3775-A90B53D8BB2C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D80A3E8E-6B72-B0AD-A562-985A2BD96DCD" name="Vuelo PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 10:08:11 UTC</createdTime>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<engineerTo>
+<item key="1A6D9DE0-6973-EE4E-3775-A90B53D8BB2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C6AC430-3767-914D-807C-B622FDEC1B9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

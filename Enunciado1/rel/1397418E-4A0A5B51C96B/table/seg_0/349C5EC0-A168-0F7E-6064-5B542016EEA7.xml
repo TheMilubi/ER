@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="349C5EC0-A168-0F7E-6064-5B542016EEA7" name="Compannia">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>4B34FF45-1250-C7A1-40F1-E38E73D0AF22</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numComp" id="3E42E4E4-663A-C1B3-A2FA-E6345D018A4E">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>BA7BF15A-1029-0DFB-15DB-28D1B08460AE</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="actividad" id="078BCFEA-9EAE-9621-7CA8-3A3D3E3DD168">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>54576927-33F3-CEF4-443F-B1E066BB5FE2</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA32C4C1-A4A7-D4AA-9764-7144B808003A" name="Compannia_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>2DA8F4DC-A9DF-A529-CC0C-30B4A9E69C47</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E42E4E4-663A-C1B3-A2FA-E6345D018A4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

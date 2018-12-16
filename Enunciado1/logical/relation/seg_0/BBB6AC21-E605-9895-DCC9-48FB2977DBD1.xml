@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERTENECE Av2" directorySegmentName="seg_0" id="BBB6AC21-E605-9895-DCC9-48FB2977DBD1">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:05 UTC</createdTime>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<engineerTo>
+<item key="1397418E-13AB-301E-A8D3-4A0A5B51C96B" value="true"/>
+</engineerTo>
+<sourcePk>5ABFCAD9-D412-9896-3397-317A27E67ADC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7C70FF15-4E90-C49A-64BC-14E096F8286E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1AEB1D42-8AFB-E978-A7DB-8414D745E55D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

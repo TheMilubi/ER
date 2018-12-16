@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D078E238-C98D-5519-DFA3-DA1ECDC44D55" name="Modulo">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 13:05:40 UTC</createdTime>
+<generatorID>1548E6E2-B5B0-435A-95ED-1A28F04E3748</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="16BD15DB-54F8-3810-06AE-B03415431F24">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 13:05:40 UTC</createdTime>
+<generatorID>E8E2D9B0-62D1-EFB5-8A17-4DF02C084238</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="69C2C771-A6E3-CB1D-E19D-80E7CDEED114">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 13:05:40 UTC</createdTime>
+<generatorID>A8A5C832-AB46-AE6F-DA18-DACC12909CAB</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Profesor_id" id="540B7E82-8550-0702-993B-040B0068C626">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 13:05:40 UTC</createdTime>
+<generatorID>BA769251-9826-7B68-FF4E-7C5F6EEC0BE5</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42F81215-51D3-63AE-C7F7-7AC70BBF8E47" referredColumn="5131447C-549C-E504-646C-828763249F1A"/>
+</associations>
+</Column>
+<Column name="Curso_idCurso" id="3C907C4A-70C8-685F-6735-830517580824">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 13:05:40 UTC</createdTime>
+<generatorID>9399377C-1D18-EA93-70CE-20FEB35E2D8D</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB562E25-8499-D686-B058-FF7A4B97E21E" referredColumn="5A17E506-CD58-A16A-0BE1-011552FDDA89"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FBE8385-30CA-41AA-0552-C158EB62789B" name="Modulo_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 13:05:40 UTC</createdTime>
+<generatorID>9647351E-604F-5F19-4E0D-A5D306A811E9</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16BD15DB-54F8-3810-06AE-B03415431F24"/>
+<colUsage columnID="3C907C4A-70C8-685F-6735-830517580824"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B356C9E-9EF4-55C3-24BB-C4A318B7D717" name="Modulo_Profesor_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 13:05:40 UTC</createdTime>
+<generatorID>B2A6C93C-9EE0-67DE-FD17-030702ECF33A</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="540B7E82-8550-0702-993B-040B0068C626"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE9B20A3-BEB8-7035-5D18-BD60874C2F10" name="Modulo_Curso_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 13:05:40 UTC</createdTime>
+<generatorID>BD3BFF0A-D71D-11B2-3D33-7B673AFBEC41</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C907C4A-70C8-685F-6735-830517580824"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

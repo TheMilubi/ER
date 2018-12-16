@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="2CB44FB4-F3AB-433C-4650-2C039E7BBE85">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:31:28 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

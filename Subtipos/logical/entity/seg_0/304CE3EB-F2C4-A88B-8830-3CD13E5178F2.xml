@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="304CE3EB-F2C4-A88B-8830-3CD13E5178F2" name="Profesor">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:33:47 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>456E823D-7DB2-F869-4D87-A488A13326D2</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="salario" id="211E8989-C548-B0D2-3556-0B0252DE266F">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:35:36 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

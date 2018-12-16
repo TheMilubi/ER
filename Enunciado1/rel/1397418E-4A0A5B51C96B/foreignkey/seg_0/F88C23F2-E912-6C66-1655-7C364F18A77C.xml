@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F88C23F2-E912-6C66-1655-7C364F18A77C" containerWithKeyObject="9E967698-9227-FF1A-7FEA-ED3624C89081" localFKIndex="B6CD16FC-5D7C-BE08-85F4-159C490843DD" name="REALIZA_Soldado_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>BE38B0F6-4640-0ED1-A09C-0E6D096C9D79</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<referredTableLongName>Soldado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>904FFE71-E610-36BF-171D-D01174946D05</referredTableID>
+<keyObject>628FF780-341B-4A1A-D4A7-B52EACDCA88A</keyObject>
+<referredKeyID>628FF780-341B-4A1A-D4A7-B52EACDCA88A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idSoldado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

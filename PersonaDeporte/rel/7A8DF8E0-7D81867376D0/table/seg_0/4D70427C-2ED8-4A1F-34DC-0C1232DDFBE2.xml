@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D70427C-2ED8-4A1F-34DC-0C1232DDFBE2" name="Deporte">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:17:48 UTC</createdTime>
+<generatorID>20FF652C-2D2E-1C89-6792-A91D695398F7</generatorID>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idDeporte" id="CDC2CD88-240F-DFDC-A5E5-369A36044154">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:17:48 UTC</createdTime>
+<generatorID>2BD3E5A8-7BA5-E4AA-58C0-8F8AE981B242</generatorID>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="721F9B5A-B786-1294-97C8-C7796CE28005">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:17:48 UTC</createdTime>
+<generatorID>B7C4B24E-3CF4-15D6-5E66-A1BBE3566463</generatorID>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="B9600FE4-C69B-D76E-AF5A-44AF0EEEC6C1">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:28:56 UTC</createdTime>
+<generatorID>5300FEE3-FFF0-D3D6-57F8-24F00957EFA9</generatorID>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15643CF1-C17A-7648-D9E2-945E85A8ABC8" name="Deporte_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:17:48 UTC</createdTime>
+<generatorID>7988B091-F9FC-C24C-D38B-4CEE1B823A5A</generatorID>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDC2CD88-240F-DFDC-A5E5-369A36044154"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

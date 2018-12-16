@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D480210-74E1-99DF-47DD-7CC1ACF7E7BB" containerWithKeyObject="3D69878A-89DF-86D4-384B-62D031281988" localFKIndex="0A49C2B3-43BB-2D61-2A56-A124057B7AA4" name="PRACTICA_Deporte_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:17:48 UTC</createdTime>
+<generatorID>C4E8FCEF-A7F0-946D-236A-9ED7D8604538</generatorID>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<referredTableLongName>Deporte</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4D70427C-2ED8-4A1F-34DC-0C1232DDFBE2</referredTableID>
+<keyObject>15643CF1-C17A-7648-D9E2-945E85A8ABC8</keyObject>
+<referredKeyID>15643CF1-C17A-7648-D9E2-945E85A8ABC8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idDeporte</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

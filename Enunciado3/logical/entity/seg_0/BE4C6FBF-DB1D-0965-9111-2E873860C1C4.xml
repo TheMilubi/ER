@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE4C6FBF-DB1D-0965-9111-2E873860C1C4" name="Sucursal">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 10:00:19 UTC</createdTime>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<engineerTo>
+<item key="1A6D9DE0-6973-EE4E-3775-A90B53D8BB2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idSucursal" id="A6401DAD-939F-F7B9-7B90-9841E1FA4F5B">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 10:06:30 UTC</createdTime>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<engineerTo>
+<item key="1A6D9DE0-6973-EE4E-3775-A90B53D8BB2C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="91E7CEE9-4237-4645-4EFF-BA14E0BFCE61">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 10:06:57 UTC</createdTime>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<engineerTo>
+<item key="1A6D9DE0-6973-EE4E-3775-A90B53D8BB2C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="032EE041-9A99-F2FE-EF6D-572D6226BB1B">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 10:07:21 UTC</createdTime>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<engineerTo>
+<item key="1A6D9DE0-6973-EE4E-3775-A90B53D8BB2C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5EA5F77D-BC1A-A1FC-EECE-BBFEF32905BD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D152B6B9-FD07-F5C6-FFA2-31799FE16F1E" name="Sucursal PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 10:06:55 UTC</createdTime>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<engineerTo>
+<item key="1A6D9DE0-6973-EE4E-3775-A90B53D8BB2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A6401DAD-939F-F7B9-7B90-9841E1FA4F5B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

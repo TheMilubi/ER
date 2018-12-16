@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E607F74F-6FB9-0DA5-19DA-0420E5C944A8" name="Alumno">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 09:20:58 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="D65850D6-B5BD-1C9A-E8FA-1FF199843DBB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matricula" id="8AFB9E4C-8CEF-4872-E9EF-BCDF2F30642B">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 09:21:04 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="D65850D6-B5BD-1C9A-E8FA-1FF199843DBB" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ci" id="7C904E89-10EB-F790-0CEF-6C1E140226B2">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 09:21:13 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="D65850D6-B5BD-1C9A-E8FA-1FF199843DBB" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E7438605-E4B8-433C-2AFD-3E28520571A7">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 09:31:32 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="D65850D6-B5BD-1C9A-E8FA-1FF199843DBB" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3EFABD79-7EAA-F937-11F8-E8C6F8762358" name="Alumno PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 09:21:08 UTC</createdTime>
+<ownerDesignName>Enunciado2</ownerDesignName>
+<engineerTo>
+<item key="D65850D6-B5BD-1C9A-E8FA-1FF199843DBB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8AFB9E4C-8CEF-4872-E9EF-BCDF2F30642B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PersonaDeporte" id="CF116D6E-A5D1-97DD-2167-303EE2AF12ED" version="3.5">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:05:25 UTC</createdTime>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CF116D6E-A5D1-97DD-2167-303EE2AF12ED</designId>
+</OSDM_Design>

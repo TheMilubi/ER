@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Subtipos" id="B547F1CE-E0A5-6C6D-6AAD-5AC4FF3BD332" version="3.5">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:31:28 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B547F1CE-E0A5-6C6D-6AAD-5AC4FF3BD332</designId>
+</OSDM_Design>

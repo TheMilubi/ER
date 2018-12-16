@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A40CFFE-07E7-B275-4A37-1C3841A397D3" name="Curso">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 13:05:40 UTC</createdTime>
+<generatorID>19D8C5EA-E5D8-0B58-2941-A41DC2CBE4E2</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCurso" id="5A17E506-CD58-A16A-0BE1-011552FDDA89">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 13:05:40 UTC</createdTime>
+<generatorID>A493DF8F-4C91-85B6-D3AF-A71B406F638C</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="CA7CCC20-F357-CAE8-7C94-C4E4169FDE12">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 13:05:40 UTC</createdTime>
+<generatorID>F6191508-3FFD-49B8-C3B4-196EBFAF260B</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40B5319A-200B-C6AD-0FF5-0D489ABD018B" name="Curso_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 13:05:40 UTC</createdTime>
+<generatorID>AF9F5279-7213-9F71-2B4C-FE5006B8341F</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A17E506-CD58-A16A-0BE1-011552FDDA89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

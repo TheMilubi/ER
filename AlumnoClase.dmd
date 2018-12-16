@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AlumnoClase" id="F95A69E5-F64D-6369-26DF-837C738E7B33" version="3.5">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 11:59:14 UTC</createdTime>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F95A69E5-F64D-6369-26DF-837C738E7B33</designId>
+</OSDM_Design>

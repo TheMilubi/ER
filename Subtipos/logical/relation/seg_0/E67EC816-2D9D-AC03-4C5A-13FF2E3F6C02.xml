@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VIVE" directorySegmentName="seg_0" id="E67EC816-2D9D-AC03-4C5A-13FF2E3F6C02">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:37:54 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<sourcePk>D171819B-BD1C-84D6-F234-DA004EEF0148</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0BC470C0-9B2A-6D72-4857-30300CBE02A9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>456E823D-7DB2-F869-4D87-A488A13326D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

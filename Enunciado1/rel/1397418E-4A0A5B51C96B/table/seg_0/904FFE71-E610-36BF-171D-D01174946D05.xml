@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="904FFE71-E610-36BF-171D-D01174946D05" name="Soldado">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>1AEB1D42-8AFB-E978-A7DB-8414D745E55D</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSoldado" id="C1501034-99DA-DB03-6978-3B9AA98F3F90">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>5373CE36-A353-58CD-00BD-76797A4BF06B</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E15EE9B2-C21C-EA62-CBBD-61C70A306FC0">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>4EFED92C-5E5F-0CDF-68DE-E091239867FD</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="C4BDBD30-F95D-E894-B008-1FD7563B7355">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>86E804F7-3E52-8E1E-7194-DB9C4D610D66</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="graduacion" id="7F157953-4C11-1585-C677-F09B1A0DF4C2">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>37453AA5-EE20-1470-A3FD-03A6B67940BB</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cuartel_idCuartel" id="F4F93BB1-ACFC-74A7-CE1B-2E2F3897A559">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>33F19517-C742-276A-E7C0-BB336E3B30E7</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42E34D3D-F3D7-5645-F900-308A718F397E" referredColumn="11146118-AA20-CC92-E769-C3FCEAC1E886"/>
+</associations>
+</Column>
+<Column name="Compannia_numComp" id="5D50B8D0-7C29-BF8A-BDB0-9E24DF4431EF">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>0CB9D106-7913-5F3E-BF04-E9D523E42F41</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0DD84C9-6F8D-7641-4450-089AA89A2BE3" referredColumn="3E42E4E4-663A-C1B3-A2FA-E6345D018A4E"/>
+</associations>
+</Column>
+<Column name="Cuerpo_idCuerpo" id="112250DA-66E2-C215-0E82-3D40EFF57507">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>CB9CCF83-F46D-6685-D1FA-2BC57F58CE3A</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAE188BA-BB6D-6C2F-CD3C-FF571E8CA5E1" referredColumn="820E812B-C446-A8B0-33F6-313DD7A5C36A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="628FF780-341B-4A1A-D4A7-B52EACDCA88A" name="Soldado_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>28597C1C-151E-4474-FEB1-401DAF59F0BA</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1501034-99DA-DB03-6978-3B9AA98F3F90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81CBC038-9623-48C0-2613-097B9CEF5368" name="Soldado_Cuartel_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>D1FDC865-1DAC-8BC9-7843-93468DB9B970</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4F93BB1-ACFC-74A7-CE1B-2E2F3897A559"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5556721-7213-605F-93BD-81923FC9817F" name="Soldado_Compannia_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>71F3C6ED-A891-EDC3-20A7-7AA3B009C036</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D50B8D0-7C29-BF8A-BDB0-9E24DF4431EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBD9B56C-1740-D9BF-DBC1-3094BE3ED18A" name="Soldado_Cuerpo_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>BBB6AC21-E605-9895-DCC9-48FB2977DBD1</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="112250DA-66E2-C215-0E82-3D40EFF57507"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="BBA49FD5-F484-A347-D6EC-BCEA44C02CB2" name="Alumno" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="F20D5A2C-84EE-F792-E75A-C33721F95DCD" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="5800827B-B293-38DC-0E5C-1ADE5371D619" name="Clase" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="F20D5A2C-84EE-F792-E75A-C33721F95DCD" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="FE36726B-2DCC-F930-56CA-B809E041294C" name="Delegar" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="F20D5A2C-84EE-F792-E75A-C33721F95DCD" propertySourceId="BBA49FD5-F484-A347-D6EC-BCEA44C02CB2" propertyTargetId="BBA49FD5-F484-A347-D6EC-BCEA44C02CB2"/>
+   <object objectType="Relation" objectID="AFFFE8CC-984D-439B-0FF9-A9B04D7A77FA" name="ESTA EN" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="F20D5A2C-84EE-F792-E75A-C33721F95DCD" propertySourceId="5800827B-B293-38DC-0E5C-1ADE5371D619" propertyTargetId="BBA49FD5-F484-A347-D6EC-BCEA44C02CB2"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98105B15-EB5A-C2B0-37F3-973829D33F72" name="Sucursal">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>BE4C6FBF-DB1D-0965-9111-2E873860C1C4</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSucursal" id="FA2D48F3-C053-3189-1F37-3CB6FD891C1A">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>A6401DAD-939F-F7B9-7B90-9841E1FA4F5B</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="CC0B57A3-D79B-A6C0-4CBE-8A4E81A0A2FE">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>91E7CEE9-4237-4645-4EFF-BA14E0BFCE61</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="261C0625-7E56-2F0F-F3E0-EBC17E821E89">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>032EE041-9A99-F2FE-EF6D-572D6226BB1B</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5EA5F77D-BC1A-A1FC-EECE-BBFEF32905BD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8839367C-8449-A287-C21F-449F577F1EC0" name="Sucursal_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>D152B6B9-FD07-F5C6-FFA2-31799FE16F1E</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA2D48F3-C053-3189-1F37-3CB6FD891C1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

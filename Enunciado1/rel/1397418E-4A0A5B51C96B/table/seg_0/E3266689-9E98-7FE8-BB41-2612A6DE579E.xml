@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3266689-9E98-7FE8-BB41-2612A6DE579E" name="Servicio">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>CF93733D-7D94-47DC-2947-18F04C66438A</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idServicio" id="934EEE1B-1686-F7E6-D9B0-CE74D724AD86">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>AF9933E0-2A21-A3CC-7373-49DC67DEEAFC</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="21C06D53-C6F3-AAE0-79A6-CF3F628612FA">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>A00901A7-B6D2-BF41-8EBE-C2B849246AA1</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44E1AC66-B0DF-E3F5-03D9-91343D3BCC10" name="Servicio_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>9D9D47FA-E033-6CB5-6724-38AF3CB903DB</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="934EEE1B-1686-F7E6-D9B0-CE74D724AD86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

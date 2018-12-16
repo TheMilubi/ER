@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SITUACION" directorySegmentName="seg_0" id="4BB14D74-4135-09C3-4C50-8B22C64D408A">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:34:55 UTC</createdTime>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<engineerTo>
+<item key="1A6D9DE0-6973-EE4E-3775-A90B53D8BB2C" value="true"/>
+</engineerTo>
+<sourcePk>D152B6B9-FD07-F5C6-FFA2-31799FE16F1E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BE4C6FBF-DB1D-0965-9111-2E873860C1C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A9B05B22-7E74-B131-808F-A932B44F10A7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

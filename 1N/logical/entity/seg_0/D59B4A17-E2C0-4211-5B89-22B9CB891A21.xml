@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D59B4A17-E2C0-4211-5B89-22B9CB891A21" name="Modulo">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:19:23 UTC</createdTime>
+<ownerDesignName>1N</ownerDesignName>
+<engineerTo>
+<item key="7B723B2F-FCD9-8566-2E69-52E6544E05CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idModulo" id="C8A8DBE3-E13A-78CC-E73C-B5451473929D">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:19:35 UTC</createdTime>
+<ownerDesignName>1N</ownerDesignName>
+<engineerTo>
+<item key="7B723B2F-FCD9-8566-2E69-52E6544E05CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="4B7EB907-F9EF-90EB-DDF5-90ACCEFE3B57">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:19:35 UTC</createdTime>
+<ownerDesignName>1N</ownerDesignName>
+<engineerTo>
+<item key="7B723B2F-FCD9-8566-2E69-52E6544E05CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProfesor" id="63D490CB-FE2E-719F-86B5-0C677E0C9DB2">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:21:14 UTC</createdTime>
+<generatorID>15D03836-9927-766B-0A10-AEA1A52D2C55</generatorID>
+<ownerDesignName>1N</ownerDesignName>
+<engineerTo>
+<item key="7B723B2F-FCD9-8566-2E69-52E6544E05CF" value="true"/>
+</engineerTo>
+<referedAttribute>6264FD50-AEDD-EC26-8778-7EC778EFC503</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A30FE9B-347A-36AE-9FF0-63BDD2EF4CDF" name="Modulo PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:19:49 UTC</createdTime>
+<ownerDesignName>1N</ownerDesignName>
+<engineerTo>
+<item key="7B723B2F-FCD9-8566-2E69-52E6544E05CF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8A8DBE3-E13A-78CC-E73C-B5451473929D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

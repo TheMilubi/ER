@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8B4DCC8-10BF-84B5-D454-E972C12E5B2C" name="Modulo">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:34:43 UTC</createdTime>
+<generatorID>D59B4A17-E2C0-4211-5B89-22B9CB891A21</generatorID>
+<ownerDesignName>1N</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idModulo" id="A1884D97-77CF-F3F3-826B-031F7117C326">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:34:43 UTC</createdTime>
+<generatorID>C8A8DBE3-E13A-78CC-E73C-B5451473929D</generatorID>
+<ownerDesignName>1N</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E72BA082-4BAF-F851-1965-587CAEEC68D2">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:34:43 UTC</createdTime>
+<generatorID>4B7EB907-F9EF-90EB-DDF5-90ACCEFE3B57</generatorID>
+<ownerDesignName>1N</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codProfesor" id="39E1B368-0869-E5B2-F4FF-0A90ECF29F9C">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:34:43 UTC</createdTime>
+<generatorID>63D490CB-FE2E-719F-86B5-0C677E0C9DB2</generatorID>
+<ownerDesignName>1N</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDC60A89-1E9D-64D1-953A-1F3B18B4780E" referredColumn="D9F98ED4-785F-3D77-516C-7C7BE49782BC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="259045E0-276E-82F0-379C-CE4C414D0D93" name="Modulo_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:34:43 UTC</createdTime>
+<generatorID>2A30FE9B-347A-36AE-9FF0-63BDD2EF4CDF</generatorID>
+<ownerDesignName>1N</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1884D97-77CF-F3F3-826B-031F7117C326"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DABF7A28-A342-6266-7D02-95A07B81F1BD" name="Modulo_Profesor_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:34:43 UTC</createdTime>
+<generatorID>15D03836-9927-766B-0A10-AEA1A52D2C55</generatorID>
+<ownerDesignName>1N</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39E1B368-0869-E5B2-F4FF-0A90ECF29F9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

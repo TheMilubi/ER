@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="226E4763-AD4E-D0AC-F16C-E621C9096A40" name="Alumno">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:23:15 UTC</createdTime>
+<generatorID>BBA49FD5-F484-A347-D6EC-BCEA44C02CB2</generatorID>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C5D2E382-98DD-2A85-3FB1-5ED9BEEAA0AF">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:23:15 UTC</createdTime>
+<generatorID>64A98D76-4BB7-392E-630C-F7A433A1900B</generatorID>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="078F10E0-D649-F613-0371-E26DA1E5FE07">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:23:15 UTC</createdTime>
+<generatorID>C23FE186-43B3-423F-5F88-BDD296FB9B71</generatorID>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="45F6CC7C-7ACF-6232-3F57-EC2627C976AC">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:23:15 UTC</createdTime>
+<generatorID>D50BA7E7-3D3E-B1A6-877D-C0057036F313</generatorID>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="421287B4-34B4-D100-2AD3-20F4C9C2B8B3">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:23:15 UTC</createdTime>
+<generatorID>A36BA648-1B0F-213B-C5DA-99D8B33AE702</generatorID>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clase_id_1" id="DCD19375-5353-445E-F429-C85176BAF22E">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:23:15 UTC</createdTime>
+<generatorID>8F7BE00B-062E-B258-D74E-A18FA757DC59</generatorID>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="665C3FB4-C578-4EE2-C623-DA35D2914F27" referredColumn="52FCB5AE-1329-E650-18BA-A16741839D6A"/>
+</associations>
+</Column>
+<Column name="Alumno_id" id="F05174A7-5309-27E1-948B-AA7309AF1033">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:24:04 UTC</createdTime>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="228EC3C5-350C-2495-E237-869A0FE9D572" referredColumn="C5D2E382-98DD-2A85-3FB1-5ED9BEEAA0AF"/>
+</associations>
+</Column>
+<Column name="id2" id="E9DE5AEA-3653-F5AD-2EF9-621FF3DB09C6">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:29:07 UTC</createdTime>
+<generatorID>863781F4-21F8-1545-8E77-DD8795C0ACB9</generatorID>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clase_id" id="68D41AC6-F4EF-9100-D886-E05E5DB55388">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:29:07 UTC</createdTime>
+<generatorID>86CF70FC-B663-46C0-A32A-9F8236035B2C</generatorID>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E15E201E-4401-D48B-636A-6B37E1F13356" referredColumn="52FCB5AE-1329-E650-18BA-A16741839D6A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F411FD1-00F4-246B-ABB5-9B4DD258DDCE" name="Alumno_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:23:15 UTC</createdTime>
+<generatorID>4A175DE1-C86A-DD75-31FB-3A56EB8279B6</generatorID>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5D2E382-98DD-2A85-3FB1-5ED9BEEAA0AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72149A34-D073-B6BA-973E-109BB887B7CB" name="Alumno_Alumno_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:23:15 UTC</createdTime>
+<generatorID>FE36726B-2DCC-F930-56CA-B809E041294C</generatorID>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F05174A7-5309-27E1-948B-AA7309AF1033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8FF2883-7130-1682-CF0A-E92DD6281967" name="Alumno_Clase_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:23:15 UTC</createdTime>
+<generatorID>54E52024-4910-39A9-8A1A-85308B135173</generatorID>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCD19375-5353-445E-F429-C85176BAF22E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9BE54A0-17B3-A8F5-FBA1-BD52B3941265" name="Alumno_Clase_FKv2">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:29:07 UTC</createdTime>
+<generatorID>AFFFE8CC-984D-439B-0FF9-A9B04D7A77FA</generatorID>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68D41AC6-F4EF-9100-D886-E05E5DB55388"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

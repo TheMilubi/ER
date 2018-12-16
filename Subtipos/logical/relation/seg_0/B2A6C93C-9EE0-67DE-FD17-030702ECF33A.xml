@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IMPARTE" directorySegmentName="seg_0" id="B2A6C93C-9EE0-67DE-FD17-030702ECF33A">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:59:02 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<sourcePk>DF896FA9-AF18-7A03-EF3F-29F04057C04D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>304CE3EB-F2C4-A88B-8830-3CD13E5178F2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1548E6E2-B5B0-435A-95ED-1A28F04E3748</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

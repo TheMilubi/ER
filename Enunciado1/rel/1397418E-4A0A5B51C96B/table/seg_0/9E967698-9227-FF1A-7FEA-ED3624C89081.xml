@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E967698-9227-FF1A-7FEA-ED3624C89081" name="REALIZA">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Soldado_idSoldado" id="C9FD7549-56C8-DC78-8B04-9167C40101F7">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F88C23F2-E912-6C66-1655-7C364F18A77C" referredColumn="C1501034-99DA-DB03-6978-3B9AA98F3F90"/>
+</associations>
+</Column>
+<Column name="Servicio_idServicio" id="E1EC2448-E7D8-FA3E-B2CD-7BE42EC6B662">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A0D5260-D842-BB27-DF98-CE7AC73E5023" referredColumn="934EEE1B-1686-F7E6-D9B0-CE74D724AD86"/>
+</associations>
+</Column>
+<Column name="fecIni" id="D58A19D1-2285-5DAB-DDAA-8A31F8BF0B98">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>B71681A8-C661-ACC0-FBA7-C0908FDCE285</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="fecFin" id="FE4790F2-ACAA-6DE3-17C1-43E68C44C81D">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>3A16976A-7445-AA5D-4281-4E59CD76052A</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C83D91CD-A2E7-7474-1970-5F096629D6CC" name="REALIZA_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9FD7549-56C8-DC78-8B04-9167C40101F7"/>
+<colUsage columnID="E1EC2448-E7D8-FA3E-B2CD-7BE42EC6B662"/>
+<colUsage columnID="D58A19D1-2285-5DAB-DDAA-8A31F8BF0B98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6CD16FC-5D7C-BE08-85F4-159C490843DD" name="REALIZA_Soldado_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>BE38B0F6-4640-0ED1-A09C-0E6D096C9D79</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9FD7549-56C8-DC78-8B04-9167C40101F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F94CF1AB-83C5-60FF-A672-C040A84B5E7F" name="REALIZA_Servicio_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-13 08:56:53 UTC</createdTime>
+<generatorID>BE38B0F6-4640-0ED1-A09C-0E6D096C9D79</generatorID>
+<ownerDesignName>Enunciado1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1EC2448-E7D8-FA3E-B2CD-7BE42EC6B662"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

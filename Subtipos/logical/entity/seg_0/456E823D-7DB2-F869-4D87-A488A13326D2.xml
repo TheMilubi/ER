@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="456E823D-7DB2-F869-4D87-A488A13326D2" name="Persona">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:31:52 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPersona" id="FA1CC5E6-1D94-BA50-3F84-EA0200D4E68D">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:32:00 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="9A67ECA1-54A9-416B-6B5A-760C0EBA5250">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:32:11 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="950B551D-ED18-7968-B1D6-77847FD55263">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:32:26 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idLocalidad" id="65A939FB-85D2-89BA-DE37-E4F62D257B02">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:37:54 UTC</createdTime>
+<generatorID>E67EC816-2D9D-AC03-4C5A-13FF2E3F6C02</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="true"/>
+</engineerTo>
+<referedAttribute>60D281A6-C86E-4618-4DE6-94869BB7ADC3</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF896FA9-AF18-7A03-EF3F-29F04057C04D" name="Persona PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:33:26 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="DD47152E-A5AD-9F73-6C6D-DA4C027A2096" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA1CC5E6-1D94-BA50-3F84-EA0200D4E68D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

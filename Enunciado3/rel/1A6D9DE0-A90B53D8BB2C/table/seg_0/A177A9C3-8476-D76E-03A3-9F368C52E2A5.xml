@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A177A9C3-8476-D76E-03A3-9F368C52E2A5" name="Hotel">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>DF6CC26A-85A6-B597-440E-C14B656ED012</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idHotel" id="CA35DE6A-0334-CEB6-F977-9D6DF11CCF17">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>384C1C1B-236E-5796-D37B-A533DFC9FE35</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3DA3FA26-36A8-2C9D-0E16-B14D2F58ED8D">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>5735652F-F88E-BFF0-7C6B-EF68C43C3312</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="A928DF91-26C0-1C53-727A-0B1FF2B7FBCF">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>B88C5E22-A9B0-7ABB-228D-0B4E5BEDBCD2</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="0BF2FF17-514E-9A53-834E-8101070741A1">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>A0CAE2C0-CB58-A086-0360-964D1242A150</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plazas" id="FD06D4EB-E6D6-4F3A-4B4C-E003D4C1B7CC">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>1E468379-C23C-DB70-229B-6F96804AD06A</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC788C01-A09E-EA3B-E3BF-DAF91988EF72" name="Hotel_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>99834A96-7FF3-5E58-CBA0-DF75489114C8</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA35DE6A-0334-CEB6-F977-9D6DF11CCF17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

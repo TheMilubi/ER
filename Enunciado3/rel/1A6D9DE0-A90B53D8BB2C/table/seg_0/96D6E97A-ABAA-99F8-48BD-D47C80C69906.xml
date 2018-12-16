@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96D6E97A-ABAA-99F8-48BD-D47C80C69906" name="Viaje">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>A9B05B22-7E74-B131-808F-A932B44F10A7</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Hotel_idHotel" id="8BB0C336-D25B-70DD-031A-A768826C7522">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>AED3646A-E5AE-AC68-6CDD-C052D5FC5492</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0F45A73-20EE-7742-732A-51F1A27997BD" referredColumn="CA35DE6A-0334-CEB6-F977-9D6DF11CCF17"/>
+</associations>
+</Column>
+<Column name="Sucursal_idSucursal" id="0E8E9DFA-7DBE-CA23-4CC5-F0C93F16B4D4">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>2925C37B-4F9F-E318-EF05-6DA9D6EE8474</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA6B9862-1BE1-303D-F423-833700246D18" referredColumn="FA2D48F3-C053-3189-1F37-3CB6FD891C1A"/>
+</associations>
+</Column>
+<Column name="Vuelo_idVuelo" id="268E8775-5F41-0812-1794-1EE0BCEB311F">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>BDC25796-AF41-743E-790B-5DE6E7877FE3</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8FBB15E-A76D-CF3A-E3E7-5AF5FF28898C" referredColumn="BD7FDB68-2136-78DC-2029-34F40209F6B4"/>
+</associations>
+</Column>
+<Column name="Turista_idTurista" id="C09BE1B7-B177-ED32-31C4-BE780AD9DA4E">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>63037511-8E48-3625-82B4-4BA5EEE71287</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8589C78-8388-30D6-5008-5110B343719B" referredColumn="6FD070A7-2961-004D-C075-30FE76841053"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C62130CA-D1FD-8066-21EF-9F16D97250A0" name="Viaje_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>72734516-F2A2-435E-FDF7-B1587ADDB887</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BB0C336-D25B-70DD-031A-A768826C7522"/>
+<colUsage columnID="0E8E9DFA-7DBE-CA23-4CC5-F0C93F16B4D4"/>
+<colUsage columnID="268E8775-5F41-0812-1794-1EE0BCEB311F"/>
+<colUsage columnID="C09BE1B7-B177-ED32-31C4-BE780AD9DA4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B595CC02-65ED-FB4A-AFF3-EA30416E2E8F" name="Viaje_Hotel_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>3B8A6D4A-D30B-C433-9AF5-6170429595CA</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BB0C336-D25B-70DD-031A-A768826C7522"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B26126C6-2B4A-C7DF-24A7-9B3811EA8E76" name="Viaje_Sucursal_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>4BB14D74-4135-09C3-4C50-8B22C64D408A</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E8E9DFA-7DBE-CA23-4CC5-F0C93F16B4D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A821B9CF-2861-16D9-8C23-0014342D3E3A" name="Viaje_Vuelo_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>BCC7C4F8-BB64-4D7B-47D6-128C87FF09BB</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="268E8775-5F41-0812-1794-1EE0BCEB311F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AFA85A7-64E0-46BC-BEDA-3423B73771FB" name="Viaje_Turista_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>E7D23D36-A041-11B1-94B8-1DDC335D9EF2</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C09BE1B7-B177-ED32-31C4-BE780AD9DA4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

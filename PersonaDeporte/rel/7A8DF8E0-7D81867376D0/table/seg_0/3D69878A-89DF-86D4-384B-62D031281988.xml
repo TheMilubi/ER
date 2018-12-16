@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D69878A-89DF-86D4-384B-62D031281988" name="PRACTICA">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:17:48 UTC</createdTime>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Persona_idPersona" id="D98E552F-5E1B-3E56-4F6F-8A27D0A152DF">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:17:48 UTC</createdTime>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38BD1176-A4EF-5E70-29D7-1CFA67D823CC" referredColumn="699DE681-66FA-9683-5330-770679930A6B"/>
+</associations>
+</Column>
+<Column name="Deporte_idDeporte" id="4E819A18-4612-A508-75D4-B50287CBF180">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:17:49 UTC</createdTime>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D480210-74E1-99DF-47DD-7CC1ACF7E7BB" referredColumn="CDC2CD88-240F-DFDC-A5E5-369A36044154"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2AD70D8-5FE0-6085-5787-7FD16809B1E4" name="PRACTICA_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:17:48 UTC</createdTime>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D98E552F-5E1B-3E56-4F6F-8A27D0A152DF"/>
+<colUsage columnID="4E819A18-4612-A508-75D4-B50287CBF180"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38414B67-6C7C-1073-F6AD-F571C9C145FF" name="PRACTICA_Persona_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:17:48 UTC</createdTime>
+<generatorID>C4E8FCEF-A7F0-946D-236A-9ED7D8604538</generatorID>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D98E552F-5E1B-3E56-4F6F-8A27D0A152DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A49C2B3-43BB-2D61-2A56-A124057B7AA4" name="PRACTICA_Deporte_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 13:17:48 UTC</createdTime>
+<generatorID>C4E8FCEF-A7F0-946D-236A-9ED7D8604538</generatorID>
+<ownerDesignName>PersonaDeporte</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E819A18-4612-A508-75D4-B50287CBF180"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

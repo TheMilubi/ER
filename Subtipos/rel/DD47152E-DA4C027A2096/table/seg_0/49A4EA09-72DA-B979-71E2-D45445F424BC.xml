@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49A4EA09-72DA-B979-71E2-D45445F424BC" name="Alumno">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:38:49 UTC</createdTime>
+<generatorID>54FEA1A8-1C00-9DB7-091B-DFD83691E030</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E83D516A-164A-6A9E-0BA8-D5152ECB8DDB">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:38:49 UTC</createdTime>
+<generatorID>FA1CC5E6-1D94-BA50-3F84-EA0200D4E68D</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77101792-F934-DB5B-0123-1C6D81A55A3B" referredColumn="43C0F67A-5E08-9F03-3096-AF54A97DD554"/>
+</associations>
+</Column>
+<Column name="beca" id="9EC8E71D-EE7F-90A6-547D-9BAFC63DE569">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:38:49 UTC</createdTime>
+<generatorID>A40AF9C5-A888-12E9-34FE-13CDFF127F41</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EBE152E-3A45-F6A6-5D20-EF0EAF543C0B" name="Alumno_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:38:49 UTC</createdTime>
+<generatorID>DF896FA9-AF18-7A03-EF3F-29F04057C04D</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E83D516A-164A-6A9E-0BA8-D5152ECB8DDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63FB9B04-C9A3-7399-3F34-D7BCB98D2B26" name="Alumno_Persona_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:38:49 UTC</createdTime>
+<generatorID>EE58FE5F-5C7E-C833-5EE4-F303B98EC9C8</generatorID>
+<ownerDesignName>Subtipos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E83D516A-164A-6A9E-0BA8-D5152ECB8DDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

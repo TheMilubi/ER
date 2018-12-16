@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Delegar" directorySegmentName="seg_0" id="FE36726B-2DCC-F930-56CA-B809E041294C">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:02:25 UTC</createdTime>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<engineerTo>
+<item key="C6CF0987-E71E-965C-2A38-C68C051B6186" value="true"/>
+</engineerTo>
+<targetPk>4A175DE1-C86A-DD75-31FB-3A56EB8279B6</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BBA49FD5-F484-A347-D6EC-BCEA44C02CB2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BBA49FD5-F484-A347-D6EC-BCEA44C02CB2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

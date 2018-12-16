@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="C03CD0BE-6684-51E8-5CFA-B8798EEA5F03" name="FKArc_1">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:38:49 UTC</createdTime>
+<ownerDesignName>Subtipos</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>E50ACA0A-73E4-A469-8528-57D23BD90042</table>
+<fkeys>
+<fkeyID>77101792-F934-DB5B-0123-1C6D81A55A3B</fkeyID>
+<fkeyID>88F1A29B-1507-732C-6DB6-37434BDB7D54</fkeyID>
+</fkeys>
+</FKArc>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18691C72-54F5-4BFA-C664-C180AFF214FC" name="Vuelo">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>B1BE6C34-966F-8174-E922-4A4059E76999</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idVuelo" id="BD7FDB68-2136-78DC-2029-34F40209F6B4">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>2C6AC430-3767-914D-807C-B622FDEC1B9F</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="origen" id="353E409F-50B1-721F-BAF8-C01B70FCE503">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>E4037AD0-EC01-DBE9-37C8-B14419CBC950</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="destino" id="221969B9-4E63-A614-D562-F4E126C58950">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>57B181E6-0202-B46C-471F-6A0193594CB2</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plazasPrimera" id="384859D2-40DD-6A3F-ED36-984BA93709CE">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>568E96F3-CC79-4CEA-1BA8-9DC34690AADC</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plazasTurista" id="382FD8BC-51BD-81BC-2AE7-2B0ACA058A12">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>FD0FADAB-5902-FD82-BC31-8D923786D740</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="611C67AE-C407-CEDA-07B8-CF506268EB2E">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>A579D5FD-AE06-4737-5818-34F6333A5276</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63BAF1FE-811B-00DD-7F1D-F4D80144E9FA" name="Vuelo_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-16 04:38:11 UTC</createdTime>
+<generatorID>D80A3E8E-6B72-B0AD-A562-985A2BD96DCD</generatorID>
+<ownerDesignName>Enunciado3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD7FDB68-2136-78DC-2029-34F40209F6B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

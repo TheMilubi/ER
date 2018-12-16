@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ESTA EN" directorySegmentName="seg_0" id="AFFFE8CC-984D-439B-0FF9-A9B04D7A77FA">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:28:49 UTC</createdTime>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<engineerTo>
+<item key="C6CF0987-E71E-965C-2A38-C68C051B6186" value="true"/>
+</engineerTo>
+<sourcePk>E74E74D2-3EE2-19F1-DF52-4C0A7E21D53D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5800827B-B293-38DC-0E5C-1ADE5371D619</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BBA49FD5-F484-A347-D6EC-BCEA44C02CB2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

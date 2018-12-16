@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5800827B-B293-38DC-0E5C-1ADE5371D619" name="Clase">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:01:35 UTC</createdTime>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<engineerTo>
+<item key="C6CF0987-E71E-965C-2A38-C68C051B6186" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="BB5A900A-A3EB-9D7C-D369-17CBD5F48F43">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:20:38 UTC</createdTime>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<engineerTo>
+<item key="C6CF0987-E71E-965C-2A38-C68C051B6186" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C3ED558F-289E-5657-04B6-D7EB42738ABD">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:20:59 UTC</createdTime>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<engineerTo>
+<item key="C6CF0987-E71E-965C-2A38-C68C051B6186" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E74E74D2-3EE2-19F1-DF52-4C0A7E21D53D" name="Clase PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-11 12:20:52 UTC</createdTime>
+<ownerDesignName>AlumnoClase</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C6CF0987-E71E-965C-2A38-C68C051B6186" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB5A900A-A3EB-9D7C-D369-17CBD5F48F43</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

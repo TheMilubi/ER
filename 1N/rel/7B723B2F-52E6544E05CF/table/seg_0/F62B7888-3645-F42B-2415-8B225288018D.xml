@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F62B7888-3645-F42B-2415-8B225288018D" name="Profesor">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:34:43 UTC</createdTime>
+<generatorID>B2B4E6AC-DF0F-0AE8-762D-C003F26D5172</generatorID>
+<ownerDesignName>1N</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProfesor" id="D9F98ED4-785F-3D77-516C-7C7BE49782BC">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:34:43 UTC</createdTime>
+<generatorID>6264FD50-AEDD-EC26-8778-7EC778EFC503</generatorID>
+<ownerDesignName>1N</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="294AC52A-283A-1F42-C59E-7D88F53AE9C9">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:34:43 UTC</createdTime>
+<generatorID>05D140BD-708E-AB28-E6B0-E875140DD131</generatorID>
+<ownerDesignName>1N</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="1AC31901-2F94-AE66-72C1-5B057600AA00">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:34:43 UTC</createdTime>
+<generatorID>AD4DEBB6-9F63-95C5-669B-716559F4E70C</generatorID>
+<ownerDesignName>1N</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaNac" id="B356C922-4D6D-32C2-7DB2-46F85CDE129C">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:34:43 UTC</createdTime>
+<generatorID>5ACA9754-92F7-B575-F74A-0585808A4B69</generatorID>
+<ownerDesignName>1N</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7363564-C0BE-C26F-733A-EB32CB82EFD6" name="Profesor_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-10 12:34:43 UTC</createdTime>
+<generatorID>27593AA8-0580-015E-06DF-142B51E89965</generatorID>
+<ownerDesignName>1N</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9F98ED4-785F-3D77-516C-7C7BE49782BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
