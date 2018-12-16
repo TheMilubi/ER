@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D41C4879-FE13-79E5-9E2A-34BCB0246326" containerWithKeyObject="84F4C332-0EC5-F81A-061E-F0FE64697E36" localFKIndex="E81606B7-EE19-E6AC-5A24-3D786DAE9062" name="REALIZA_PruebaTeorica_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>B86A1513-5BA2-73FB-4B04-561E40D5A3BC</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<referredTableLongName>PruebaTeorica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DE4CFBD3-3509-7549-C343-AEC0E174C4A0</referredTableID>
+<keyObject>8FE936C8-2240-BC60-8990-84611557CA59</keyObject>
+<referredKeyID>8FE936C8-2240-BC60-8990-84611557CA59</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numExamen</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

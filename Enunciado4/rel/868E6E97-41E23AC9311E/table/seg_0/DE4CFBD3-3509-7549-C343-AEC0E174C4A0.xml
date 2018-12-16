@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE4CFBD3-3509-7549-C343-AEC0E174C4A0" name="PruebaTeorica">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>CDF5662C-3A68-0E40-B08E-A1EE1962A176</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numExamen" id="C7686F05-A198-29E2-7E46-F7C160644A5D">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>4A2B2C7B-38CD-BC79-AFEA-DD7E29374CC4</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numPaginas" id="0C5D3680-A11D-D027-C60C-7135EA823243">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>E5DF25D1-716B-49E7-5E1F-93363E18B3EC</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="C4149F6B-C63D-42D8-A3D0-831A3B21E62C">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>7ABEB0E2-644B-BF4F-F8C4-8125A1812C3A</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FE936C8-2240-BC60-8990-84611557CA59" name="PruebaTeorica_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>AF5A32D8-8482-BAFF-E1BB-EF0A1C5AF54A</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7686F05-A198-29E2-7E46-F7C160644A5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

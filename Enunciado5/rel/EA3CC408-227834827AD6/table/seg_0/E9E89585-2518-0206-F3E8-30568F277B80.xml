@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9E89585-2518-0206-F3E8-30568F277B80" name="Venta">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>3B1A5BBB-D7CD-B375-DF30-14E63B6359D4</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matriculaVenta" id="E71742F1-7604-9E3A-A97B-CA23EB3D032D">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>31244F27-0DB0-7C66-3C45-481F922FB189</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="E8DE816F-116C-D6BF-F4D7-D219D93AE097">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>AE35F775-077E-C19F-B146-9528ED60F041</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vendedor_ci" id="944C117F-A4BB-E433-C481-A0A88DC30403">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>432BCD86-B066-07FF-F59C-D4B58A0EDED6</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FA7ACEC-69EB-EAC3-5AB6-6BB6B0229C08" referredColumn="6FE5CAED-3C4E-4287-3594-DE81B543D616"/>
+</associations>
+</Column>
+<Column name="Cliente_ci" id="0C237AE1-7800-FE71-5DB4-173C9D67CC3F">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>F828F630-387D-9F95-E170-CE321D00C26A</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6B7F9E0-6AAF-DB0E-2F7D-2FAF32486E88" referredColumn="57F8A331-CA40-E0D8-661F-601AE0A4AFC5"/>
+</associations>
+</Column>
+<Column name="Coche_marca" id="F1C7C74B-5EFD-C34D-9C36-32BD546BF456">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>4D3A4877-3EE9-8804-036A-5BFDA98C188E</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C82963C6-F8BD-5BDB-C80F-865B6B03A700" referredColumn="B916AA13-B39A-51E2-F926-A5AED9D0BC60"/>
+</associations>
+</Column>
+<Column name="Coche_modelo" id="E988C18F-0315-F033-A0C0-FCDEDE7F4AA5">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>310FC493-6572-4E1A-E7DC-81B5295FB600</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C82963C6-F8BD-5BDB-C80F-865B6B03A700" referredColumn="9DF1317B-15F9-BFE7-BF64-3EF68BD208F6"/>
+</associations>
+</Column>
+<Column name="Coche_cilindrada" id="4A3B6E09-8C37-146F-6A84-BD7223F8FFC7">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>0F64607C-65E0-DF17-C670-D752FD897AA7</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C82963C6-F8BD-5BDB-C80F-865B6B03A700" referredColumn="E0CB035C-4242-6714-0A59-C2C927D5D779"/>
+</associations>
+</Column>
+<Column name="CocheAntiguo_matricula" id="DBA233AD-1089-5A2B-FB98-A8B4A2A9E4D2">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>661C35D5-011F-1BBD-9193-70070AC7C4D2</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D320E63-46F5-9903-475F-4FABF6CD57F2" referredColumn="F22F66C5-D622-21F6-A335-3CD0AE4D8E6A"/>
+</associations>
+</Column>
+<Column name="fechaCesion" id="85A3FE46-1E74-2B31-C1A6-57166D6344CA">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:05:31 UTC</createdTime>
+<generatorID>A77A5625-C4D4-CA1E-2E6E-6A53C47CE861</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>0D320E63-46F5-9903-475F-4FABF6CD57F2</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB44F1DA-37A0-5E2C-7BB4-104C541B4D7B" name="Venta_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>A2AEE3F8-B4E6-75B8-7A11-E363A2C21389</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8DE816F-116C-D6BF-F4D7-D219D93AE097"/>
+<colUsage columnID="E71742F1-7604-9E3A-A97B-CA23EB3D032D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAEA481C-8174-CD0D-AD46-A1EE798BA56B" name="Venta__IDX">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:05:31 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>37B2385D-8913-EF7C-11F0-E725679D5838</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DBA233AD-1089-5A2B-FB98-A8B4A2A9E4D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CF94F16-C04A-ADC4-68CE-5329FE0E70B0" name="Venta_CocheAntiguo_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>37B2385D-8913-EF7C-11F0-E725679D5838</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBA233AD-1089-5A2B-FB98-A8B4A2A9E4D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32B96AC8-C64C-667B-0510-5B2B07F97D17" name="Venta_Cliente_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>FB7B7CE3-5C75-DDC5-E469-8792E1AFB431</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C237AE1-7800-FE71-5DB4-173C9D67CC3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F71370A3-B479-DF17-156A-B5166A926545" name="Venta_Vendedor_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>605B9C86-0899-CB89-D4AB-15A5467DEC4F</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="944C117F-A4BB-E433-C481-A0A88DC30403"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A51D85A8-6FA6-204B-15A3-980899CA342A" name="Venta_Coche_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>90F934E0-4538-E120-CEF7-6EB44F9EE5BE</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1C7C74B-5EFD-C34D-9C36-32BD546BF456"/>
+<colUsage columnID="E988C18F-0315-F033-A0C0-FCDEDE7F4AA5"/>
+<colUsage columnID="4A3B6E09-8C37-146F-6A84-BD7223F8FFC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

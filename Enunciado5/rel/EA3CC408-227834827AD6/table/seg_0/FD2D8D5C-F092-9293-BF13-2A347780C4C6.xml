@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD2D8D5C-F092-9293-BF13-2A347780C4C6" name="Opcion">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>D9716818-1FA8-DF22-CE9F-C3C5E8711701</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="3B84E57B-F3CE-B931-6334-CC00E1A638F4">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>4C593F68-422B-5C3B-05C6-127C21BBC429</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="FD25BA52-34AC-3F72-FCDD-938A56673170">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>53C45513-F537-93AA-B532-DA64C124E9B2</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3882A996-BAA5-1445-FA5C-B882C1592107" name="Opcion_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>0C08C35C-6662-4E44-BCB1-FFE1F64E8BF9</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B84E57B-F3CE-B931-6334-CC00E1A638F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

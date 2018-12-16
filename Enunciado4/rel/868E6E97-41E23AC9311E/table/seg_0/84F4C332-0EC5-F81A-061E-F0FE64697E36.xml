@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84F4C332-0EC5-F81A-061E-F0FE64697E36" name="REALIZA">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Alumno_numMatricula" id="CFE17C39-58F7-C953-4746-CDE88DEAB771">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A341461-4C0E-1408-D5C7-1956E2A8B794" referredColumn="6AFE420B-222B-F12E-A6F3-89A5E87857A8"/>
+</associations>
+</Column>
+<Column name="PruebaTeorica_numExamen" id="3FA370E3-7778-C2E5-162E-154FB5537022">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D41C4879-FE13-79E5-9E2A-34BCB0246326" referredColumn="C7686F05-A198-29E2-7E46-F7C160644A5D"/>
+</associations>
+</Column>
+<Column name="nota" id="E9F58497-0DF9-6CA6-A0C3-AD8980637133">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>08A82482-5C1C-914D-A916-FEA2FD3FD653</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF92C4F5-DDDA-E28F-1EBE-BE8D72E81584" name="REALIZA_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFE17C39-58F7-C953-4746-CDE88DEAB771"/>
+<colUsage columnID="3FA370E3-7778-C2E5-162E-154FB5537022"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DBF688F-F762-9E28-3547-BA6D57E0950E" name="REALIZA_Alumno_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>B86A1513-5BA2-73FB-4B04-561E40D5A3BC</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFE17C39-58F7-C953-4746-CDE88DEAB771"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E81606B7-EE19-E6AC-5A24-3D786DAE9062" name="REALIZA_PruebaTeorica_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>B86A1513-5BA2-73FB-4B04-561E40D5A3BC</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FA370E3-7778-C2E5-162E-154FB5537022"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

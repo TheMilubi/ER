@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8719E23-D3FF-B39D-CD3E-15F2883CB388" name="CocheAntiguo">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:28:17 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matricula" id="63041034-EB69-136F-D007-AF2369BBAB10">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:28:30 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="73EC9415-0731-5029-CDDB-52E06A5BCB36">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:28:48 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="237DD111-49C7-3821-25AD-0F219C7A63F5">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:33:05 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tasacion" id="3D354D44-7D01-1130-9FB4-B734DA8D922E">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:33:22 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,2,5</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="917DB4DC-6501-1962-1000-7B0AD418328C" name="CocheAntiguo PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:28:46 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63041034-EB69-136F-D007-AF2369BBAB10</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4A23102-2856-0FC0-C782-2A73CFBB2102" name="TIENE">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Venta_fecha" id="192F78BE-C6B7-4093-4578-E62E160FB535">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B561F41D-7FEE-8205-097F-A0FB197BD083" referredColumn="E8DE816F-116C-D6BF-F4D7-D219D93AE097"/>
+</associations>
+</Column>
+<Column name="Venta_matriculaVenta" id="5D66B2FB-A2B6-B23F-1613-C68A61BFCC26">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B561F41D-7FEE-8205-097F-A0FB197BD083" referredColumn="E71742F1-7604-9E3A-A97B-CA23EB3D032D"/>
+</associations>
+</Column>
+<Column name="Opcion_nombre" id="3C4CB61C-914C-FCFD-7806-FE2680807730">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="659581B9-A461-8200-021E-664284DFF73A" referredColumn="3B84E57B-F3CE-B931-6334-CC00E1A638F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB9EBF68-B7A5-8B30-F70E-636478988C37" name="TIENE_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="192F78BE-C6B7-4093-4578-E62E160FB535"/>
+<colUsage columnID="5D66B2FB-A2B6-B23F-1613-C68A61BFCC26"/>
+<colUsage columnID="3C4CB61C-914C-FCFD-7806-FE2680807730"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D075EC3-DFAE-D4C8-DF74-6AA721B2AA2E" name="TIENE_Venta_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>93DD8D7B-BBEC-7F5D-FB77-1307BB016726</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="192F78BE-C6B7-4093-4578-E62E160FB535"/>
+<colUsage columnID="5D66B2FB-A2B6-B23F-1613-C68A61BFCC26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B31E1BA3-01B3-C2DE-6399-D192CB486C47" name="TIENE_Opcion_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>93DD8D7B-BBEC-7F5D-FB77-1307BB016726</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C4CB61C-914C-FCFD-7806-FE2680807730"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

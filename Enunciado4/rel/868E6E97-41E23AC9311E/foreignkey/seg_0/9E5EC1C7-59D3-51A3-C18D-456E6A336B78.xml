@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9E5EC1C7-59D3-51A3-C18D-456E6A336B78" containerWithKeyObject="9713DC9B-ECBE-8FFF-9015-05EAD72C709F" localFKIndex="97A5D243-E06A-DB3B-77D1-8910E93AA4A7" name="REALIZAv2_PruebaPractica_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>AE4E1028-D3A6-E76D-BAC0-D1D7BD20DDF0</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<referredTableLongName>PruebaPractica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C42CB137-537B-F677-27CB-74720679EDB6</referredTableID>
+<keyObject>BDE5D1F4-128F-BC88-0242-129365593697</keyObject>
+<referredKeyID>BDE5D1F4-128F-BC88-0242-129365593697</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codPractica</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

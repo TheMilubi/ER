@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9713DC9B-ECBE-8FFF-9015-05EAD72C709F" name="REALIZAv2">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Alumno_numMatricula" id="F529B774-7FDC-42D0-1C22-EBE6D27CC906">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A76ECE0F-94C4-C487-63FD-DEB167A36552" referredColumn="6AFE420B-222B-F12E-A6F3-89A5E87857A8"/>
+</associations>
+</Column>
+<Column name="PruebaPractica_codPractica" id="61EB8131-4480-BE91-9F88-48F01DCA49E8">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E5EC1C7-59D3-51A3-C18D-456E6A336B78" referredColumn="1F8689F5-AD92-E440-2A9F-0E2CD75C4A64"/>
+</associations>
+</Column>
+<Column name="fecha" id="C453E295-3C14-B2D1-5524-A6EBF044E846">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>1D23CAF5-2759-C2A5-1CBA-4ACE5D381851</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="nota" id="6467CBE3-2A16-38B0-E26A-C2F97DAB851E">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>46399127-C9E9-AC28-7E6A-53E55E4DA95A</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD186CAA-18DC-1397-03F6-9CF9A80B13C0" name="REALIZAv2_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F529B774-7FDC-42D0-1C22-EBE6D27CC906"/>
+<colUsage columnID="61EB8131-4480-BE91-9F88-48F01DCA49E8"/>
+<colUsage columnID="C453E295-3C14-B2D1-5524-A6EBF044E846"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C89E74CE-D22A-EE0D-047A-9F7536C62D00" name="REALIZAv2_Alumno_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>AE4E1028-D3A6-E76D-BAC0-D1D7BD20DDF0</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F529B774-7FDC-42D0-1C22-EBE6D27CC906"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97A5D243-E06A-DB3B-77D1-8910E93AA4A7" name="REALIZAv2_PruebaPractica_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>AE4E1028-D3A6-E76D-BAC0-D1D7BD20DDF0</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61EB8131-4480-BE91-9F88-48F01DCA49E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

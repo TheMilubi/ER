@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CESION" directorySegmentName="seg_0" id="37B2385D-8913-EF7C-11F0-E725679D5838">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:59:30 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<sourcePk>917DB4DC-6501-1962-1000-7B0AD418328C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B8719E23-D3FF-B39D-CD3E-15F2883CB388</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3B1A5BBB-D7CD-B375-DF30-14E63B6359D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fechaCesion" id="A77A5625-C4D4-CA1E-2E6E-6A53C47CE861">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:05:09 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

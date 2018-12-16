@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VENDIDO" directorySegmentName="seg_0" id="90F934E0-4538-E120-CEF7-6EB44F9EE5BE">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:47:48 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="91A87636-6DCA-97AD-87E3-47F570B459E3" value="true"/>
+</engineerTo>
+<sourcePk>DA70598C-4C6A-EF9B-0523-33B7FF1DCF6D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3B813A2F-5E15-7EBE-17DA-0F7A67D9ACAE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3B1A5BBB-D7CD-B375-DF30-14E63B6359D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC22ED2D-8680-294D-9EA5-58DE16466A6C" name="Persona">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:11:10 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="91A87636-6DCA-97AD-87E3-47F570B459E3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ci" id="593533C2-72ED-04DE-4B85-56E2744DAD8C">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:11:20 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="91A87636-6DCA-97AD-87E3-47F570B459E3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="5C2C8803-556A-12D1-B3D5-35794E556341">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:11:31 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="91A87636-6DCA-97AD-87E3-47F570B459E3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="833F8657-6181-25B5-06A3-C43F57B934D4">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:11:49 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="91A87636-6DCA-97AD-87E3-47F570B459E3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="78DEB718-0892-11F0-82C3-818F284A0F89">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:11:57 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="91A87636-6DCA-97AD-87E3-47F570B459E3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5EA5F77D-BC1A-A1FC-EECE-BBFEF32905BD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED77A26E-B91B-90EA-2ADB-DF03C48DF427" name="Persona PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:12:07 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="91A87636-6DCA-97AD-87E3-47F570B459E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>593533C2-72ED-04DE-4B85-56E2744DAD8C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

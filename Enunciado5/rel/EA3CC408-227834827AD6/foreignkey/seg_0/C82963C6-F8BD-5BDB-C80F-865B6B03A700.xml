@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C82963C6-F8BD-5BDB-C80F-865B6B03A700" containerWithKeyObject="E9E89585-2518-0206-F3E8-30568F277B80" localFKIndex="A51D85A8-6FA6-204B-15A3-980899CA342A" name="Venta_Coche_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>90F934E0-4538-E120-CEF7-6EB44F9EE5BE</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<referredTableLongName>Coche</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1EB0FE17-39AD-F47B-9DAB-D96F47ACF8D4</referredTableID>
+<keyObject>DCE4BFC7-3669-061B-3D33-FBE28FE4A870</keyObject>
+<referredKeyID>DCE4BFC7-3669-061B-3D33-FBE28FE4A870</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>marca,modelo,cilindrada</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

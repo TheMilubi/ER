@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1EEB14EF-7E59-FBA6-D3A9-95BEA155AEBD" name="Profesor">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:22:37 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ci" id="15EA5908-868D-7449-DEFC-1C423524DCDF">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:23:17 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="24469473-8678-AB47-D3EA-79CAE4378B9B">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:23:26 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8CFB33C-71CA-8EFC-9B14-A992BBEF74BA" name="Profesor PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:23:24 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15EA5908-868D-7449-DEFC-1C423524DCDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

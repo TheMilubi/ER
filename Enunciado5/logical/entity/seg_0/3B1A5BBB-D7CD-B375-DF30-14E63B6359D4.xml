@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B1A5BBB-D7CD-B375-DF30-14E63B6359D4" name="Venta">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:45:10 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matriculaVenta" id="31244F27-0DB0-7C66-3C45-481F922FB189">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:49:49 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="AE35F775-077E-C19F-B146-9528ED60F041">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:48:53 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ci" id="432BCD86-B066-07FF-F59C-D4B58A0EDED6">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:46:00 UTC</createdTime>
+<generatorID>605B9C86-0899-CB89-D4AB-15A5467DEC4F</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<referedAttribute>593533C2-72ED-04DE-4B85-56E2744DAD8C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ci1" id="F828F630-387D-9F95-E170-CE321D00C26A">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:46:42 UTC</createdTime>
+<generatorID>FB7B7CE3-5C75-DDC5-E469-8792E1AFB431</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<referedAttribute>593533C2-72ED-04DE-4B85-56E2744DAD8C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="4D3A4877-3EE9-8804-036A-5BFDA98C188E">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:47:48 UTC</createdTime>
+<generatorID>90F934E0-4538-E120-CEF7-6EB44F9EE5BE</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<referedAttribute>359A10BB-D67A-874C-5D57-ED2F90CF77BB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="310FC493-6572-4E1A-E7DC-81B5295FB600">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:47:48 UTC</createdTime>
+<generatorID>90F934E0-4538-E120-CEF7-6EB44F9EE5BE</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<referedAttribute>412ABE27-C5D4-BBD9-0D26-939113D8479F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cilindrada" id="0F64607C-65E0-DF17-C670-D752FD897AA7">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:47:48 UTC</createdTime>
+<generatorID>90F934E0-4538-E120-CEF7-6EB44F9EE5BE</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<referedAttribute>2E743A86-E771-1066-9532-B629DC11BC23</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="661C35D5-011F-1BBD-9193-70070AC7C4D2">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:59:30 UTC</createdTime>
+<generatorID>37B2385D-8913-EF7C-11F0-E725679D5838</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="true"/>
+</engineerTo>
+<referedAttribute>63041034-EB69-136F-D007-AF2369BBAB10</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2AEE3F8-B4E6-75B8-7A11-E363A2C21389" name="Venta PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:46:42 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EA3CC408-00BB-E187-745E-227834827AD6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE35F775-077E-C19F-B146-9528ED60F041</attributeRef>
+<attributeRef>31244F27-0DB0-7C66-3C45-481F922FB189</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

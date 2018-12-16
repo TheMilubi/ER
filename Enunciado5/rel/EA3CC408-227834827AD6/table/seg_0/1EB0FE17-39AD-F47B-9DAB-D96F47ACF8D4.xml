@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EB0FE17-39AD-F47B-9DAB-D96F47ACF8D4" name="Coche">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>3B813A2F-5E15-7EBE-17DA-0F7A67D9ACAE</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="marca" id="B916AA13-B39A-51E2-F926-A5AED9D0BC60">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>359A10BB-D67A-874C-5D57-ED2F90CF77BB</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="9DF1317B-15F9-BFE7-BF64-3EF68BD208F6">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>412ABE27-C5D4-BBD9-0D26-939113D8479F</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cilindrada" id="E0CB035C-4242-6714-0A59-C2C927D5D779">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>2E743A86-E771-1066-9532-B629DC11BC23</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="7A8D938E-8422-4B34-E8B0-A5FCFA2FBB09">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>271FE893-D37B-346C-534A-02D83500EBBC</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,2,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ci" id="201D2757-D8E0-2AF9-E596-1D749BF9BD10">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>713451FA-4513-0A75-D094-2C805351C289</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ci1" id="EBD417A6-506F-F3C0-3248-AF1BC6BE8718">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>7FB206E0-D622-A516-9E62-1EDF09FA8EB1</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="1DC90880-4403-4725-1B67-BF1C3ACEF0F1">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>49662F60-E873-F7E1-6139-63BE163BC378</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCE4BFC7-3669-061B-3D33-FBE28FE4A870" name="Coche_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>DA70598C-4C6A-EF9B-0523-33B7FF1DCF6D</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B916AA13-B39A-51E2-F926-A5AED9D0BC60"/>
+<colUsage columnID="9DF1317B-15F9-BFE7-BF64-3EF68BD208F6"/>
+<colUsage columnID="E0CB035C-4242-6714-0A59-C2C927D5D779"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

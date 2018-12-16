@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="659581B9-A461-8200-021E-664284DFF73A" containerWithKeyObject="C4A23102-2856-0FC0-C782-2A73CFBB2102" localFKIndex="B31E1BA3-01B3-C2DE-6399-D192CB486C47" name="TIENE_Opcion_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 18:01:50 UTC</createdTime>
+<generatorID>93DD8D7B-BBEC-7F5D-FB77-1307BB016726</generatorID>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<referredTableLongName>Opcion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FD2D8D5C-F092-9293-BF13-2A347780C4C6</referredTableID>
+<keyObject>3882A996-BAA5-1445-FA5C-B882C1592107</keyObject>
+<referredKeyID>3882A996-BAA5-1445-FA5C-B882C1592107</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nombre</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

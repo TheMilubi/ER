@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VENDE" directorySegmentName="seg_0" id="605B9C86-0899-CB89-D4AB-15A5467DEC4F">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 17:24:44 UTC</createdTime>
+<ownerDesignName>Enunciado5</ownerDesignName>
+<engineerTo>
+<item key="91A87636-6DCA-97AD-87E3-47F570B459E3" value="true"/>
+</engineerTo>
+<sourcePk>ED77A26E-B91B-90EA-2ADB-DF03C48DF427</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F61710EB-5184-1A98-D939-3AA59A0D9AED</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3B1A5BBB-D7CD-B375-DF30-14E63B6359D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

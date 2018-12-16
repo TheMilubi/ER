@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D71A5A7A-62AE-F06C-73CF-68C11B4BE38E" name="CREA">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PruebaPractica_codPractica" id="D3DF58FB-ADF4-9831-0B2F-84A76ECF40E5">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="578607A6-005E-B793-3C76-D66F6737440D" referredColumn="1F8689F5-AD92-E440-2A9F-0E2CD75C4A64"/>
+</associations>
+</Column>
+<Column name="Profesor_ci" id="CCA0E35B-FBB3-6EF0-F66F-B49B40E7FFD0">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D74EC7E5-1AE7-7580-C55B-11DA23CD658E" referredColumn="5CDC2FA3-422E-8E58-EC12-94480DC42DEC"/>
+</associations>
+</Column>
+<Column name="fecha" id="3B359907-8BB9-426C-6D52-BFCF12ADCA6C">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>41ED9760-7F55-F05A-92E0-E50ED95F3788</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95922BD8-E175-34B9-8DCE-CFD29E6B51C1" name="CREA_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3DF58FB-ADF4-9831-0B2F-84A76ECF40E5"/>
+<colUsage columnID="CCA0E35B-FBB3-6EF0-F66F-B49B40E7FFD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB55B198-42BF-EE73-2CC5-89240527FB78" name="CREA_PruebaPractica_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>A2E2B55E-7382-0C93-9090-C8B936B31DAE</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3DF58FB-ADF4-9831-0B2F-84A76ECF40E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0DF768E-C92A-CC84-D180-1C3D8003CB46" name="CREA_Profesor_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>A2E2B55E-7382-0C93-9090-C8B936B31DAE</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCA0E35B-FBB3-6EF0-F66F-B49B40E7FFD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

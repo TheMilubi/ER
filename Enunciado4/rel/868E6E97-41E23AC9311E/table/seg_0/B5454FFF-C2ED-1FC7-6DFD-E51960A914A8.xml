@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5454FFF-C2ED-1FC7-6DFD-E51960A914A8" name="Alumno">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>4AD4CA59-14EA-8A0D-45EA-E8999B46E127</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numMatricula" id="6AFE420B-222B-F12E-A6F3-89A5E87857A8">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>A0CE6C81-92EC-E95E-3799-E48513715793</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupo" id="F48415DF-1727-6C95-260D-5B73E2104CA1">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>1F27555E-37ED-A962-092F-0F9E37E7E3D3</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="ED606FC8-76E0-3F21-AE95-EFFFA2F26F42">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>6D30C454-4230-8864-E760-4E8CACABC4CB</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="296AFEB6-519D-66B1-01C4-3B2D75DC536D" name="Alumno_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:35:15 UTC</createdTime>
+<generatorID>5C91390D-5FD1-B846-0138-6895D5BB15A4</generatorID>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AFE420B-222B-F12E-A6F3-89A5E87857A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

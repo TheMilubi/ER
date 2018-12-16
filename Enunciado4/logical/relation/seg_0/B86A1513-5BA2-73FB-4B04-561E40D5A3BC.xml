@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REALIZA" directorySegmentName="seg_0" id="B86A1513-5BA2-73FB-4B04-561E40D5A3BC">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:31:15 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4AD4CA59-14EA-8A0D-45EA-E8999B46E127</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CDF5662C-3A68-0E40-B08E-A1EE1962A176</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="nota" id="08A82482-5C1C-914D-A916-FEA2FD3FD653">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:31:27 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

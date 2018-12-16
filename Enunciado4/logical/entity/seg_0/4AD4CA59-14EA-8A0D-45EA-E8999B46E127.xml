@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4AD4CA59-14EA-8A0D-45EA-E8999B46E127" name="Alumno">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:21:34 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numMatricula" id="A0CE6C81-92EC-E95E-3799-E48513715793">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:21:42 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grupo" id="1F27555E-37ED-A962-092F-0F9E37E7E3D3">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:22:03 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="6D30C454-4230-8864-E760-4E8CACABC4CB">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:22:19 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C91390D-5FD1-B846-0138-6895D5BB15A4" name="Alumno PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:22:00 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A0CE6C81-92EC-E95E-3799-E48513715793</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

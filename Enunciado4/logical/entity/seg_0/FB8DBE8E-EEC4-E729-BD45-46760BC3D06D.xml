@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB8DBE8E-EEC4-E729-BD45-46760BC3D06D" name="PruebaPractica">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:25:44 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codPractica" id="38D865E8-5D10-73B7-D8EF-965CAC9210A8">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:25:54 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dificultad" id="BE12F995-5BDE-2A8B-C0F0-CA154549C464">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:26:57 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="25BA2CE5-E973-5A62-BAB5-5BEC15F89F5E">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:29:08 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD9FD9A2-9404-101C-2243-AC3619C34141" name="PruebaPractica PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-16 16:26:55 UTC</createdTime>
+<ownerDesignName>Enunciado4</ownerDesignName>
+<engineerTo>
+<item key="868E6E97-2CEC-1187-2BE7-41E23AC9311E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38D865E8-5D10-73B7-D8EF-965CAC9210A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
