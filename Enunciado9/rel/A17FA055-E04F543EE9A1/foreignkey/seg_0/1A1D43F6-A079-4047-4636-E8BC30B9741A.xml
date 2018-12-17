@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A1D43F6-A079-4047-4636-E8BC30B9741A" containerWithKeyObject="0F50BD7E-B0DF-3C68-DB35-2595F8F29375" localFKIndex="5EEBA2FE-DA6C-E47B-6338-B3157B988959" name="AYUDA_EN_Patente_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:43 UTC</createdTime>
+<generatorID>8867CB6F-769F-6F6F-8111-F78924AE50E4</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<referredTableLongName>Patente</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D6C39233-BA28-C7E1-8F98-3D557ADC422F</referredTableID>
+<keyObject>A68E68F8-144B-3585-D4A3-04B19BEBDD0F</keyObject>
+<referredKeyID>A68E68F8-144B-3585-D4A3-04B19BEBDD0F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numPatente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

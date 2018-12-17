@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBD01C4C-5B33-7D05-37D6-D3E024740722" name="Persona">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:42 UTC</createdTime>
+<generatorID>DC941C26-D499-32F7-CE25-24C92DCDF8CE</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dni" id="1751A893-EA22-E35B-8AEE-49C768ED73E8">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:43 UTC</createdTime>
+<generatorID>F7E58001-0C4E-0F74-ECD4-81C47BBAB59F</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="BB0BEF5C-16E8-6FE8-1598-68A578E7344F">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:43 UTC</createdTime>
+<generatorID>6F50298D-D600-84FB-024A-76689FF8FB81</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="0D927EBC-502E-9DA0-9D31-0213946E32A8">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:43 UTC</createdTime>
+<generatorID>AAB276E1-E754-F0D6-879E-A4CFC98A1122</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="0FD8BE1C-19BA-170C-0A12-22AF220C75C3">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:43 UTC</createdTime>
+<generatorID>DA8B3FCC-1823-B234-8746-9EAD31E0A5F2</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5EA5F77D-BC1A-A1FC-EECE-BBFEF32905BD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empresa_codEmpresa" id="0A763204-6636-A42A-5449-762FE22EEA34">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:43 UTC</createdTime>
+<generatorID>9FF3C885-0110-FD25-2933-02A0D2DF5144</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CDD5A5D-AE75-23DB-9C9A-C2FF8F765B0E" referredColumn="AE01DA6F-FD28-3142-3A59-A2F3973A49ED"/>
+</associations>
+</Column>
+<Column name="fechaContratacion" id="DEED69E1-A0ED-B527-079C-CFE5F48F66CE">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:43 UTC</createdTime>
+<generatorID>F8FF5FAA-EE4E-BF5F-8EB6-988B69E70DB1</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>9CDD5A5D-AE75-23DB-9C9A-C2FF8F765B0E</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F770E5F-4F7D-24B1-14BA-2C4D00A3FD47" name="Persona_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:43 UTC</createdTime>
+<generatorID>35E05B31-E06C-6DDE-6CE3-0DD3B3F5DAF8</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1751A893-EA22-E35B-8AEE-49C768ED73E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E520B2A2-2392-D1B4-5F66-7A005A04B581" name="Persona_Empresa_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:43 UTC</createdTime>
+<generatorID>C4DA1EDA-F068-9D09-FC6F-0DD3931BF67E</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A763204-6636-A42A-5449-762FE22EEA34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

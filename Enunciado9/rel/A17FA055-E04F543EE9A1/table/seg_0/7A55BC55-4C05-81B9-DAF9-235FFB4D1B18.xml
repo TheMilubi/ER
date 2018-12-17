@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A55BC55-4C05-81B9-DAF9-235FFB4D1B18" name="Telefono">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:42 UTC</createdTime>
+<generatorID>4B86BEEB-A908-9B53-B372-C16577A09E16</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefono" id="89216857-79F7-3167-491A-5B5868F12299">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:42 UTC</createdTime>
+<generatorID>EC7066AF-FF9C-5EBE-D885-656BE145217E</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5EA5F77D-BC1A-A1FC-EECE-BBFEF32905BD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empresa_codEmpresa" id="15420580-3275-4E5F-6D09-B510F13DC2F9">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:42 UTC</createdTime>
+<generatorID>11ADE39E-632C-77D9-3DD0-FA68033B0EDD</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EAB3FA6-2D91-9E43-6DA6-1D3374AF672D" referredColumn="AE01DA6F-FD28-3142-3A59-A2F3973A49ED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC3795A7-E664-2244-E764-A589760F3151" name="Telefono_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:42 UTC</createdTime>
+<generatorID>BF20DD9D-8416-8441-46AE-EF0749051EBC</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89216857-79F7-3167-491A-5B5868F12299"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AA2F403-0163-2333-62CB-6F30F568F3E0" name="Telefono_Empresa_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:43 UTC</createdTime>
+<generatorID>35F2027B-1658-93A8-C3C8-1C61A0FD1ACC</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15420580-3275-4E5F-6D09-B510F13DC2F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

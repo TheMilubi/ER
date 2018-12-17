@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6C39233-BA28-C7E1-8F98-3D557ADC422F" name="Patente">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:42 UTC</createdTime>
+<generatorID>191BA29D-C4FC-F4AD-6E18-3C81465ABE3B</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numPatente" id="A21056EE-E47B-33AD-78D9-F887997C4ED3">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:42 UTC</createdTime>
+<generatorID>958EFCF9-D199-0572-B7DF-DCEA723085C5</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="78DD7CA8-C1EB-13A8-9B0E-18760760C458">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:42 UTC</createdTime>
+<generatorID>F2F2FDD0-7DDD-3483-3D16-C181E734A8F9</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inventor_dni" id="30A273F1-516B-4F29-FF6A-47C12E1D53AF">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:42 UTC</createdTime>
+<generatorID>AFC45647-6738-C5FA-07F6-DFA1A566D815</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC2B0FEF-9838-37FE-CA6D-18F85E26E1CE" referredColumn="C2102693-3DE5-AE19-31DA-64CBE8D19C4A"/>
+</associations>
+</Column>
+<Column name="Empresa_codEmpresa" id="473CB115-E011-3AAE-AD2F-F29C36FAAC9B">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:42 UTC</createdTime>
+<generatorID>580B3EB6-5EA5-26BB-FC5C-863A3A51E213</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21C43790-15B3-EFFF-CE0A-CAF88B66FB3A" referredColumn="AE01DA6F-FD28-3142-3A59-A2F3973A49ED"/>
+</associations>
+</Column>
+<Column name="fecCompra" id="8A8620FD-95DC-C1AA-D49C-4DA3F5CCEC08">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:43 UTC</createdTime>
+<generatorID>32083C5A-CA03-60E2-06F9-5835B758602F</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>21C43790-15B3-EFFF-CE0A-CAF88B66FB3A</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A68E68F8-144B-3585-D4A3-04B19BEBDD0F" name="Patente_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:42 UTC</createdTime>
+<generatorID>53F500BB-643E-B2E3-913D-8372D175BFA6</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A21056EE-E47B-33AD-78D9-F887997C4ED3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFD1FF8F-5497-DE0C-8663-2490BB908488" name="Patente_Empresa_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:43 UTC</createdTime>
+<generatorID>6DB32D80-9E67-42D3-43C9-E73AF4CD278F</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="473CB115-E011-3AAE-AD2F-F29C36FAAC9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3BEBE1D-9B02-BA85-8D26-25750840CC54" name="Patente_Inventor_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:07:43 UTC</createdTime>
+<generatorID>5ACB5892-AC5B-A8C6-2E00-3BD4A07F0BFA</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30A273F1-516B-4F29-FF6A-47C12E1D53AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

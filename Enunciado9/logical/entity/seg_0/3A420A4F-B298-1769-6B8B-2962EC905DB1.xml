@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A420A4F-B298-1769-6B8B-2962EC905DB1" name="Inventor">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:54:35 UTC</createdTime>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<engineerTo>
+<item key="A17FA055-BD4A-C936-1708-E04F543EE9A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>DC941C26-D499-32F7-CE25-24C92DCDF8CE</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

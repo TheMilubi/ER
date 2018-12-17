@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="657AE9EA-63EA-CED6-8F4B-BDCB92752910" name="Empresa">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:58:32 UTC</createdTime>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<engineerTo>
+<item key="A17FA055-BD4A-C936-1708-E04F543EE9A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codEmpresa" id="4156E355-3117-1A22-0CA3-73870DF5BE76">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:59:12 UTC</createdTime>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<engineerTo>
+<item key="A17FA055-BD4A-C936-1708-E04F543EE9A1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="4A4AE66E-8079-4805-19DE-7098FF3DE12A">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:59:27 UTC</createdTime>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<engineerTo>
+<item key="A17FA055-BD4A-C936-1708-E04F543EE9A1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="3A8A6C7C-0862-F492-469F-6CDB522D1BEF">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:59:34 UTC</createdTime>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<engineerTo>
+<item key="A17FA055-BD4A-C936-1708-E04F543EE9A1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="92B404A8-EFE6-4F41-53DD-E38E9CF6935D" name="Empresa PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:59:46 UTC</createdTime>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<engineerTo>
+<item key="A17FA055-BD4A-C936-1708-E04F543EE9A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4156E355-3117-1A22-0CA3-73870DF5BE76</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

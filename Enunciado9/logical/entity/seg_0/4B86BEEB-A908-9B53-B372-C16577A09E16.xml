@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B86BEEB-A908-9B53-B372-C16577A09E16" name="Telefono">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:01:07 UTC</createdTime>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<engineerTo>
+<item key="A17FA055-BD4A-C936-1708-E04F543EE9A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="telefono" id="EC7066AF-FF9C-5EBE-D885-656BE145217E">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:02:24 UTC</createdTime>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<engineerTo>
+<item key="A17FA055-BD4A-C936-1708-E04F543EE9A1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5EA5F77D-BC1A-A1FC-EECE-BBFEF32905BD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codEmpresa" id="11ADE39E-632C-77D9-3DD0-FA68033B0EDD">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:03:02 UTC</createdTime>
+<generatorID>35F2027B-1658-93A8-C3C8-1C61A0FD1ACC</generatorID>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<engineerTo>
+<item key="A17FA055-BD4A-C936-1708-E04F543EE9A1" value="true"/>
+</engineerTo>
+<referedAttribute>4156E355-3117-1A22-0CA3-73870DF5BE76</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF20DD9D-8416-8441-46AE-EF0749051EBC" name="Telefono PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:02:31 UTC</createdTime>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<engineerTo>
+<item key="A17FA055-BD4A-C936-1708-E04F543EE9A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC7066AF-FF9C-5EBE-D885-656BE145217E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AYUDA EN" directorySegmentName="seg_0" id="8867CB6F-769F-6F6F-8111-F78924AE50E4">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:57:36 UTC</createdTime>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<engineerTo>
+<item key="A17FA055-BD4A-C936-1708-E04F543EE9A1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>191BA29D-C4FC-F4AD-6E18-3C81465ABE3B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D7C97511-1C42-909B-F506-6A4153ABACBC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

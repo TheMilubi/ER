@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRATA" directorySegmentName="seg_0" id="C4DA1EDA-F068-9D09-FC6F-0DD3931BF67E">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:05:51 UTC</createdTime>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<engineerTo>
+<item key="A17FA055-BD4A-C936-1708-E04F543EE9A1" value="true"/>
+</engineerTo>
+<sourcePk>92B404A8-EFE6-4F41-53DD-E38E9CF6935D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>657AE9EA-63EA-CED6-8F4B-BDCB92752910</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DC941C26-D499-32F7-CE25-24C92DCDF8CE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fechaContratacion" id="F8FF5FAA-EE4E-BF5F-8EB6-988B69E70DB1">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 18:06:11 UTC</createdTime>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<engineerTo>
+<item key="A17FA055-BD4A-C936-1708-E04F543EE9A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

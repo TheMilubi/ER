@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Enunciado9" id="DD4DCA25-4669-1FB4-0202-41CF0C844163" version="3.5">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:42:09 UTC</createdTime>
+<ownerDesignName>Enunciado9</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DD4DCA25-4669-1FB4-0202-41CF0C844163</designId>
+</OSDM_Design>
