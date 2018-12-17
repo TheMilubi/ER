@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="198127D3-5868-AA66-67B8-C42B6C2CA420" name="Empleado">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:16:29 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codEmpleado" id="ADF18292-270E-164A-BE5A-8890ED3F2F6E">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:19:21 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="5B102406-B4D7-5FAB-9ECB-8731F2343BFB">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:19:31 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="51DB2963-CF29-3857-8310-A95FF15D3017">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:19:46 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="551B794D-8D2C-78C4-2165-C52300E6FF5F">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:19:59 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5EA5F77D-BC1A-A1FC-EECE-BBFEF32905BD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidad" id="35C7381C-8051-8706-BC8B-EF789A22CEC2">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:20:12 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D4ADA883-FCDA-53EC-81EE-96A2F5FA4E75" name="Empleado PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:19:29 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ADF18292-270E-164A-BE5A-8890ED3F2F6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

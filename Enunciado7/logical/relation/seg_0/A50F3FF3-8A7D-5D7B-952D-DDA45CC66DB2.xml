@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EN PROPIEDAD" directorySegmentName="seg_0" id="A50F3FF3-8A7D-5D7B-952D-DDA45CC66DB2">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:08:31 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<sourcePk>4AFA8928-CE96-B351-5E4D-9FA6B976E855</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0BD5F5DB-5A54-7740-8B06-AE0372DBE2AC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E1592A77-D182-F17C-FFF6-A11AB39B1CCA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fecha" id="90D9CCFB-6964-BB1C-516E-2141BC6F3906">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:09:12 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

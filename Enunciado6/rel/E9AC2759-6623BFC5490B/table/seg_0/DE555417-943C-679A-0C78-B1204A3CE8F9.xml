@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE555417-943C-679A-0C78-B1204A3CE8F9" name="Empresa">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>A2D13519-2460-F85E-1506-23AE1328BE6C</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="1E0811A1-524C-2186-71C6-5D0FA296B928">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>724FF201-C32C-03D4-3197-03F2D6D85883</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaHolding" id="5163A848-600A-3643-E09A-B0A090F3EB8C">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>E2B98FAD-4EAF-55C7-9EA7-604C90F9E588</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="facturacionAnual" id="54E8C24C-A1BE-2954-5609-5302FC31E8D9">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<comment>En euros</comment>
+<generatorID>0A3D7950-9C30-AF9B-AFA0-8CF699572FCD</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numVendedores" id="E39D5AF0-72E6-CF81-B0CF-85DE3B880974">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>0468F8A8-3645-1F85-1825-10237C583A82</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F2F2A85-9A95-BE77-F645-231875F1A26B" name="Empresa_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>140505C9-6467-2366-D6EF-0F92BC181C5C</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E0811A1-524C-2186-71C6-5D0FA296B928"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

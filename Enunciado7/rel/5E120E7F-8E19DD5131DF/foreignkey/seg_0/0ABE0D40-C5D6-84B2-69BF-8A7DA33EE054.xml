@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0ABE0D40-C5D6-84B2-69BF-8A7DA33EE054" containerWithKeyObject="84EF10C8-49EE-7A7F-81CF-DF5A5743725C" localFKIndex="4FC38962-F078-97F0-12AE-D7B4418ED6C9" name="OCUPA_Amarre_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>D3DA74CF-FDED-4721-023B-7BDA7FD44FD1</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<referredTableLongName>Amarre</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>075BDC8F-2E18-3874-F2FE-124BF562C623</referredTableID>
+<keyObject>58517F6C-E882-73AE-8CD7-FF836E82E9C0</keyObject>
+<referredKeyID>58517F6C-E882-73AE-8CD7-FF836E82E9C0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numAmarre</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

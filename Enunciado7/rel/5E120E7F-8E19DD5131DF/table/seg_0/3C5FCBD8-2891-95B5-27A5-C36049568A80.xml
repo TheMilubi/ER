@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C5FCBD8-2891-95B5-27A5-C36049568A80" name="Empleado">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>198127D3-5868-AA66-67B8-C42B6C2CA420</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codEmpleado" id="FC590897-0009-B7F0-1B61-0F206758F428">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>ADF18292-270E-164A-BE5A-8890ED3F2F6E</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="332E6C0A-E2EE-BFA5-C988-1B1B76915DD7">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>5B102406-B4D7-5FAB-9ECB-8731F2343BFB</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="03CEA20C-C8BE-412E-26AF-3D94BDB79F09">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>51DB2963-CF29-3857-8310-A95FF15D3017</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="AE9A873D-670A-2585-9811-AC1D3043D576">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>551B794D-8D2C-78C4-2165-C52300E6FF5F</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5EA5F77D-BC1A-A1FC-EECE-BBFEF32905BD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especialidad" id="4A309767-3A16-B666-E2A9-A8DE360AA56C">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>35C7381C-8051-8706-BC8B-EF789A22CEC2</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE0A0964-3BBF-E290-EFA4-6AA219CBA165" name="Empleado_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>D4ADA883-FCDA-53EC-81EE-96A2F5FA4E75</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC590897-0009-B7F0-1B61-0F206758F428"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

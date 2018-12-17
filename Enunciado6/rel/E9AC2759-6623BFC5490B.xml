@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="E9AC2759-4D07-DC0B-FDFE-6623BFC5490B" mainViewID="C994D4B8-9F12-F6EE-23FE-2F3A8D86831C">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:38 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

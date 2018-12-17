@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ACTIVIDAD" directorySegmentName="seg_0" id="3AEFA96D-0F39-BB35-9239-9822FB84F5CB">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:42:25 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<engineerTo>
+<item key="E9AC2759-4D07-DC0B-FDFE-6623BFC5490B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A2D13519-2460-F85E-1506-23AE1328BE6C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>34BAA47B-CDB7-2B89-E1A4-4B11CA655778</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

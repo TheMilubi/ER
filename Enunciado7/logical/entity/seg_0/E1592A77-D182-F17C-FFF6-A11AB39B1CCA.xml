@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1592A77-D182-F17C-FFF6-A11AB39B1CCA" name="Amarre">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:03:15 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numAmarre" id="53DA52DA-0877-192E-1795-7F1D80A0750A">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:04:17 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lecturaLuz" id="21B6F0B4-F083-F428-6808-45E8A588593C">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:04:25 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lecturaAgua" id="C96717E8-95B3-E43E-DA18-6E8BBB8DA36D">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:05:05 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="servicioMantenimiento" id="F3647148-6005-E8FD-86BC-BC08E87FDBAB">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:05:24 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>94AD92D8-D9E7-EFB0-38F0-28D59FDAA0F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ci" id="7534B00A-BE8E-77F1-EB5E-E528E2A57056">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:08:31 UTC</createdTime>
+<generatorID>A50F3FF3-8A7D-5D7B-952D-DDA45CC66DB2</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<referedAttribute>6974FD85-DB71-AA9D-E50C-91435162B197</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idZona" id="549B5D42-0B75-9882-6C8E-8D2985D403D5">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:14:53 UTC</createdTime>
+<generatorID>78521F55-4988-966A-50D2-EB2CEDFEE8B1</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<referedAttribute>10915A04-6B74-F060-6625-4DA7CACFCB7D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5AAB583A-987D-0743-90D0-D5DE6694EA37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D436622-29C1-9A22-10C3-F6E72B3E6133" name="Amarre PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:04:23 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<engineerTo>
+<item key="5E120E7F-C211-AE97-2664-8E19DD5131DF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>53DA52DA-0877-192E-1795-7F1D80A0750A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

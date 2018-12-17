@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="818BDC38-9188-177B-F2BB-8602965E3C15" containerWithKeyObject="977AFE70-3B67-22D6-4EB3-D27973DEE5E5" localFKIndex="3EFE84D1-1931-72A7-114A-8E93EE8E8797" name="ASESORAMIENTO_Asesor_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>197E0D4D-0E38-7D14-B9B7-476B361848DA</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<referredTableLongName>Asesor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>255C7BDA-889A-261B-A524-D95582E8C3D2</referredTableID>
+<keyObject>44EF3213-E6F9-FC02-0C27-F911F5A81353</keyObject>
+<referredKeyID>44EF3213-E6F9-FC02-0C27-F911F5A81353</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idAsesor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

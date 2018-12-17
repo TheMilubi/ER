@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ASESOR-AREA" directorySegmentName="seg_0" id="CEE2FD62-0B1F-A6C9-7FB6-39C0A66E41FF">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:41:43 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<engineerTo>
+<item key="E9AC2759-4D07-DC0B-FDFE-6623BFC5490B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9CB34319-0111-7D8C-A80D-7F121B5A3B6E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EA90B9A1-D1D7-358D-2640-D4C6DFDB4CDA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

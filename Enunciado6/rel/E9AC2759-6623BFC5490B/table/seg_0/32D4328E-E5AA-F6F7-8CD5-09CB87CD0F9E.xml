@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32D4328E-E5AA-F6F7-8CD5-09CB87CD0F9E" name="ASESOR-AREA">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Asesor_idAsesor" id="63FBC7DB-FF6B-F65A-5EED-4EEEF0544F37">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="867F4A29-75CA-7215-AAB3-E0766091BE84" referredColumn="EDD17492-7F05-C439-BCCE-8D932D0C03BF"/>
+</associations>
+</Column>
+<Column name="AreaMercado_nombre" id="20AE328A-FB0E-A69C-DD16-8175ACFC570B">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94125CAA-1480-DF77-F86C-6B90B943328A" referredColumn="B1337ADC-2CDB-C7B0-5DD0-A1DAE4B0F783"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB77D806-D441-B5E6-1676-EB3503DF3BDD" name="ASESOR-AREA_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63FBC7DB-FF6B-F65A-5EED-4EEEF0544F37"/>
+<colUsage columnID="20AE328A-FB0E-A69C-DD16-8175ACFC570B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4EE2672-04C9-593E-0AC9-84D258D8A72B" name="ASESOR-AREA_Asesor_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>CEE2FD62-0B1F-A6C9-7FB6-39C0A66E41FF</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63FBC7DB-FF6B-F65A-5EED-4EEEF0544F37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B5BBC4E-F321-A365-E0E1-5D2812E1368B" name="ASESOR-AREA_AreaMercado_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>CEE2FD62-0B1F-A6C9-7FB6-39C0A66E41FF</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20AE328A-FB0E-A69C-DD16-8175ACFC570B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

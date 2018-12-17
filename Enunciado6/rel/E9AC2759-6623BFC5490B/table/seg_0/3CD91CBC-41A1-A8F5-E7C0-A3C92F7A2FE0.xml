@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CD91CBC-41A1-A8F5-E7C0-A3C92F7A2FE0" name="ACTIVIDAD">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empresa_nombre" id="D7302632-304B-51EB-1A65-6E2A8FA09A77">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAC8DED6-691A-B8A3-135F-B0D6FE230717" referredColumn="1E0811A1-524C-2186-71C6-5D0FA296B928"/>
+</associations>
+</Column>
+<Column name="Pais_nombre" id="E2E6B14C-0530-C04C-1BAF-21456005555C">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D136AB9-BD88-5F64-D924-065DBAF41E89" referredColumn="9A8724FD-908F-53B2-0968-B1D616AFB276"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20286A36-1464-C185-DC99-5DA5ABA37C43" name="ACTIVIDAD_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7302632-304B-51EB-1A65-6E2A8FA09A77"/>
+<colUsage columnID="E2E6B14C-0530-C04C-1BAF-21456005555C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A912A84C-2E03-0636-5F64-88DE4EDF055C" name="ACTIVIDAD_Empresa_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>3AEFA96D-0F39-BB35-9239-9822FB84F5CB</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7302632-304B-51EB-1A65-6E2A8FA09A77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4C2ED39-FA03-77CC-6CC0-A44DD11DE5A4" name="ACTIVIDAD_Pais_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>3AEFA96D-0F39-BB35-9239-9822FB84F5CB</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2E6B14C-0530-C04C-1BAF-21456005555C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

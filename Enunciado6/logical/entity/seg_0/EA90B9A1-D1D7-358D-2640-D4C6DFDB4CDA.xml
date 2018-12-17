@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA90B9A1-D1D7-358D-2640-D4C6DFDB4CDA" name="AreaMercado">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:12:55 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<engineerTo>
+<item key="E9AC2759-4D07-DC0B-FDFE-6623BFC5490B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="3CF86527-E093-3CC0-A19E-E258CA8F276D">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:29:27 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<engineerTo>
+<item key="E9AC2759-4D07-DC0B-FDFE-6623BFC5490B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="26885136-DEC1-B392-18DE-BC618CEF7519">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:29:36 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<engineerTo>
+<item key="E9AC2759-4D07-DC0B-FDFE-6623BFC5490B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26567F44-CFEF-4826-21D1-22D5F6A307CF" name="AreaMercado PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:29:34 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<engineerTo>
+<item key="E9AC2759-4D07-DC0B-FDFE-6623BFC5490B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3CF86527-E093-3CC0-A19E-E258CA8F276D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

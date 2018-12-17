@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="977AFE70-3B67-22D6-4EB3-D27973DEE5E5" name="ASESORAMIENTO">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empresa_nombre" id="C8F51FA5-5AD6-4BB9-F18C-2AAACCD2DC34">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7488523-F12C-51AF-313B-154022EBEEE2" referredColumn="1E0811A1-524C-2186-71C6-5D0FA296B928"/>
+</associations>
+</Column>
+<Column name="Asesor_idAsesor" id="998D7BCF-12E1-4CAA-60E3-45E374AA375F">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="818BDC38-9188-177B-F2BB-8602965E3C15" referredColumn="EDD17492-7F05-C439-BCCE-8D932D0C03BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDC294B4-7DFE-0F69-A7E5-6D72554C4518" name="ASESORAMIENTO_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8F51FA5-5AD6-4BB9-F18C-2AAACCD2DC34"/>
+<colUsage columnID="998D7BCF-12E1-4CAA-60E3-45E374AA375F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1ADEF50-9442-2A77-E7AA-7DE4FBDB5EC1" name="ASESORAMIENTO_Empresa_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>197E0D4D-0E38-7D14-B9B7-476B361848DA</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8F51FA5-5AD6-4BB9-F18C-2AAACCD2DC34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EFE84D1-1931-72A7-114A-8E93EE8E8797" name="ASESORAMIENTO_Asesor_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>197E0D4D-0E38-7D14-B9B7-476B361848DA</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="998D7BCF-12E1-4CAA-60E3-45E374AA375F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

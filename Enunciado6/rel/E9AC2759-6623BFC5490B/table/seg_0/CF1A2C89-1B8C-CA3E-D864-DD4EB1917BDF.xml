@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF1A2C89-1B8C-CA3E-D864-DD4EB1917BDF" name="EMPRESA-AREA">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empresa_nombre" id="6928E922-F64F-D17E-B1BB-060298719D1D">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CC74781-F65A-78BF-449D-69955598ED21" referredColumn="1E0811A1-524C-2186-71C6-5D0FA296B928"/>
+</associations>
+</Column>
+<Column name="AreaMercado_nombre" id="8C05CF10-32B0-CAFA-DB33-4D307FA9BC94">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26EB9E19-7875-CCEE-3312-256864820892" referredColumn="B1337ADC-2CDB-C7B0-5DD0-A1DAE4B0F783"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4E3C91A-AA5C-2BFD-386D-519649ABD666" name="EMPRESA-AREA_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6928E922-F64F-D17E-B1BB-060298719D1D"/>
+<colUsage columnID="8C05CF10-32B0-CAFA-DB33-4D307FA9BC94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BD76F64-FC69-0FA1-2EC4-4594427F9A82" name="EMPRESA-AREA_Empresa_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>2E059EE6-8272-3281-41EA-9BC1E431D86C</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6928E922-F64F-D17E-B1BB-060298719D1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDB630BD-45BF-DF8B-3C71-6AD4969EA450" name="EMPRESA-AREA_AreaMercado_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>2E059EE6-8272-3281-41EA-9BC1E431D86C</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C05CF10-32B0-CAFA-DB33-4D307FA9BC94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

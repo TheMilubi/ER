@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="075BDC8F-2E18-3874-F2FE-124BF562C623" name="Amarre">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>E1592A77-D182-F17C-FFF6-A11AB39B1CCA</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numAmarre" id="4EA050B6-C7B9-B042-5EDC-794811FE33EF">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>53DA52DA-0877-192E-1795-7F1D80A0750A</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lecturaLuz" id="77A87DC4-E384-F99A-1806-F13F2DA46C2A">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>21B6F0B4-F083-F428-6808-45E8A588593C</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lecturaAgua" id="A63B1395-ADDF-5A25-FAA9-564FB9CE71B2">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>C96717E8-95B3-E43E-DA18-6E8BBB8DA36D</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="servicioMantenimiento" id="47EC6326-CFDD-A6E5-ED17-9EAC0F61FB3B">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>F3647148-6005-E8FD-86BC-BC08E87FDBAB</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>94AD92D8-D9E7-EFB0-38F0-28D59FDAA0F6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Socio_ci" id="8C7D3F27-0D64-37A1-11CB-D167AAA4327F">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>7534B00A-BE8E-77F1-EB5E-E528E2A57056</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A6BC095-B78A-48FE-4F91-820D2EE304B1" referredColumn="53A75A85-3902-F8AB-B623-9202EE3305AB"/>
+</associations>
+</Column>
+<Column name="Zona_idZona" id="8B02DD44-37E0-2388-955B-50AED0FB2E5D">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>549B5D42-0B75-9882-6C8E-8D2985D403D5</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5AAB583A-987D-0743-90D0-D5DE6694EA37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A142B1FE-ABFD-4EE2-4C01-F0A234582678" referredColumn="1EE3A40B-DC0D-1260-7E3E-7BFF11D86C32"/>
+</associations>
+</Column>
+<Column name="fecha" id="0FB85D6E-D964-47E8-3A99-F2534C363513">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>90D9CCFB-6964-BB1C-516E-2141BC6F3906</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>7A6BC095-B78A-48FE-4F91-820D2EE304B1</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58517F6C-E882-73AE-8CD7-FF836E82E9C0" name="Amarre_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>6D436622-29C1-9A22-10C3-F6E72B3E6133</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EA050B6-C7B9-B042-5EDC-794811FE33EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B311581-DC71-6808-9BE5-E2740C0CEF41" name="Amarre_Socio_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>A50F3FF3-8A7D-5D7B-952D-DDA45CC66DB2</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C7D3F27-0D64-37A1-11CB-D167AAA4327F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="615E1BEC-79BB-6CB0-522F-91F8CD996BC1" name="Amarre_Zona_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>78521F55-4988-966A-50D2-EB2CEDFEE8B1</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B02DD44-37E0-2388-955B-50AED0FB2E5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

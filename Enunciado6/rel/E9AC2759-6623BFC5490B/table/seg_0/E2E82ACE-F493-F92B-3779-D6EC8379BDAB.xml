@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2E82ACE-F493-F92B-3779-D6EC8379BDAB" name="Vendedor">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>9255E009-5D59-E125-2A76-594795D26D66</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idVendedor" id="5FB64541-42C9-3961-EF9D-4A7CB843C6D6">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>80E83994-CC1F-191B-1D45-EBC97714557D</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="87C7E0AE-5543-242C-2B93-CF0169E60766">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>0FBC0C4A-1AF1-3CF8-BDBB-556CDD73236F</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="4FF2CE14-D8FF-EED9-5666-6B9585013204">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>F6C37D86-3110-E286-840C-8A7EC2D59D98</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vendedor_idVendedor" id="21CBA81D-40AA-C41D-C378-175CD718877B">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>95F79F9B-F3EC-92AA-57B0-FA52187D97C4</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7C8F579-A527-7891-748A-061C6EC81B3F" referredColumn="5FB64541-42C9-3961-EF9D-4A7CB843C6D6"/>
+</associations>
+</Column>
+<Column name="Empresa_nombre" id="9380DF37-1940-39D0-8209-84E0EBD04FD8">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>07BD8FF4-2D1D-21C5-C309-D05F365F466F</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B81A9628-4D21-D33C-67F9-6D15AB431499" referredColumn="1E0811A1-524C-2186-71C6-5D0FA296B928"/>
+</associations>
+</Column>
+<Column name="fecha" id="B61D48A4-D819-52EA-C977-B9A4EC003988">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>DCCB60E9-38F7-9592-3F3D-0C62A5B33A1E</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>A7C8F579-A527-7891-748A-061C6EC81B3F</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0744748-13C4-5E24-70A8-279060534D51" name="Vendedor_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>E0234495-8821-6249-BABA-FD54E1C59F10</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FB64541-42C9-3961-EF9D-4A7CB843C6D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD560FAF-ACDD-2D0D-C812-8A46944C4AA1" name="Vendedor_Vendedor_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>8D610C6D-CD76-78D6-314A-4DE93962CADA</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21CBA81D-40AA-C41D-C378-175CD718877B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2704E89B-D6B3-2C92-FC27-DC5CC1998049" name="Vendedor_Empresa_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>EE71AA4E-2407-F9FA-3C49-FACB7F04D264</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9380DF37-1940-39D0-8209-84E0EBD04FD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

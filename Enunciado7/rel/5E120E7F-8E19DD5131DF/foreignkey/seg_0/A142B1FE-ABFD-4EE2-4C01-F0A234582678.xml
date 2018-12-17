@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A142B1FE-ABFD-4EE2-4C01-F0A234582678" containerWithKeyObject="075BDC8F-2E18-3874-F2FE-124BF562C623" localFKIndex="615E1BEC-79BB-6CB0-522F-91F8CD996BC1" name="Amarre_Zona_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>78521F55-4988-966A-50D2-EB2CEDFEE8B1</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<referredTableLongName>Zona</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B8F37D42-8D9F-E06A-9AA8-0D3102D20D3F</referredTableID>
+<keyObject>F3B052AF-B378-0722-8A67-515A04A1069C</keyObject>
+<referredKeyID>F3B052AF-B378-0722-8A67-515A04A1069C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idZona</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

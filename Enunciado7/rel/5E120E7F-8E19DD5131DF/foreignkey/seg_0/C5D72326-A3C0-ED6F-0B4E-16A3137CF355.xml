@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5D72326-A3C0-ED6F-0B4E-16A3137CF355" containerWithKeyObject="84EF10C8-49EE-7A7F-81CF-DF5A5743725C" localFKIndex="278F1927-C304-BAA3-8F26-915D42DA6D3A" name="OCUPA_Embarcacion_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>D3DA74CF-FDED-4721-023B-7BDA7FD44FD1</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<referredTableLongName>Embarcacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5A823339-C724-FCFA-5C08-1A29E0AABABC</referredTableID>
+<keyObject>41EF3B95-E12B-D254-AA84-A3E39CAD0179</keyObject>
+<referredKeyID>41EF3B95-E12B-D254-AA84-A3E39CAD0179</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>matricula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

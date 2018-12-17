@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66B4A4E9-C3C1-4317-B6A9-A79D84DA9F99" name="Pais">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>34BAA47B-CDB7-2B89-E1A4-4B11CA655778</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="9A8724FD-908F-53B2-0968-B1D616AFB276">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>ECDBE16B-6ADD-A24A-0B2F-64D8BAC46468</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pib" id="F71DDE7F-58C4-288E-B5B0-9193DFE391B4">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>CCAA8C05-A985-57BF-EDE7-A315231A8046</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numHabitantes" id="FB3FE412-D181-A992-C1EF-52D2C0E580DC">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>C71B53CE-8C7E-52EE-1492-B11E8728EE8C</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capital" id="0982F7AF-570E-1FE3-2B9C-D56854E29A0D">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>0DF59239-73BD-FCDC-9EA6-7501C56FBB35</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empresa_nombre" id="47D95DD8-DB8A-80EA-E203-8D4352A981C6">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>B85D5749-FC0F-79C8-ED4E-734AFB8D6722</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B294A131-3114-3515-E6E4-68B6E7A32C3B" referredColumn="1E0811A1-524C-2186-71C6-5D0FA296B928"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="529F9E8C-67CE-E29B-DD35-D39D8C3A6AF8" name="Pais_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>47915187-A515-D719-2587-B118865F718A</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A8724FD-908F-53B2-0968-B1D616AFB276"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A40ED6D3-51CF-79F0-4BDB-5082E0073299" name="Pais__IDX">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F6FD4DDD-C353-B387-0D1A-E8119ECD1E99</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="47D95DD8-DB8A-80EA-E203-8D4352A981C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72B69864-9546-C0BB-56A3-141428F76BD8" name="Pais_Empresa_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 12:53:47 UTC</createdTime>
+<generatorID>F6FD4DDD-C353-B387-0D1A-E8119ECD1E99</generatorID>
+<ownerDesignName>Enunciado6</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47D95DD8-DB8A-80EA-E203-8D4352A981C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

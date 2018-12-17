@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8F37D42-8D9F-E06A-9AA8-0D3102D20D3F" name="Zona">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>C4DB5D37-0491-040E-F913-B488989085B5</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idZona" id="1EE3A40B-DC0D-1260-7E3E-7BFF11D86C32">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>10915A04-6B74-F060-6625-4DA7CACFCB7D</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>5AAB583A-987D-0743-90D0-D5DE6694EA37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="EA3F65A5-1199-5617-4088-7807073AB041">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>D836C476-0636-9CCE-E3B4-0240CC2505EC</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numEmbarcaciones" id="DE2E2613-1720-3010-D931-6286B66040CB">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>A8BEDB16-4AD2-7C53-594B-945863690EDF</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3B052AF-B378-0722-8A67-515A04A1069C" name="Zona_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>04ADCDDB-A3F1-997F-3EF0-0F870E260B90</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EE3A40B-DC0D-1260-7E3E-7BFF11D86C32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

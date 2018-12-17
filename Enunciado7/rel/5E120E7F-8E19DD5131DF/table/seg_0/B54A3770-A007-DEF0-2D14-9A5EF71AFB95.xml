@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B54A3770-A007-DEF0-2D14-9A5EF71AFB95" name="ASIGNADO">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empleado_codEmpleado" id="8282F18B-0C3E-B91E-0E6A-677014F5E4D4">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25DFB253-FC65-C113-6DD8-F4F1FB7CF974" referredColumn="FC590897-0009-B7F0-1B61-0F206758F428"/>
+</associations>
+</Column>
+<Column name="Amarre_numAmarre" id="4B267D61-ABEB-52DD-9EFD-64A410863E15">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E5098C0-08DB-031F-8A1B-657720E3CC87" referredColumn="4EA050B6-C7B9-B042-5EDC-794811FE33EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0210AA50-FA10-D2FB-7D52-B5617820F160" name="ASIGNADO_PK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8282F18B-0C3E-B91E-0E6A-677014F5E4D4"/>
+<colUsage columnID="4B267D61-ABEB-52DD-9EFD-64A410863E15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C173A2A8-DBA3-95DD-E827-728053CEB0EB" name="ASIGNADO_Empleado_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>B2D1F5B5-E424-54CE-45CD-C3BB122F5E21</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8282F18B-0C3E-B91E-0E6A-677014F5E4D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BE1BDB5-2815-80A2-B71E-0A8731C42982" name="ASIGNADO_Amarre_FK">
+<createdBy>TheMi</createdBy>
+<createdTime>2018-12-17 13:21:23 UTC</createdTime>
+<generatorID>B2D1F5B5-E424-54CE-45CD-C3BB122F5E21</generatorID>
+<ownerDesignName>Enunciado7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B267D61-ABEB-52DD-9EFD-64A410863E15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
