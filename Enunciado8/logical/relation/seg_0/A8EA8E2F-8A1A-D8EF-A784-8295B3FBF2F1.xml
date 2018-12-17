@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VIDA" directorySegmentName="seg_0" id="A8EA8E2F-8A1A-D8EF-A784-8295B3FBF2F1">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:28:41 UTC</createdTime>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<engineerTo>
+<item key="D4677160-470B-663D-3C1F-F5A3C612D880" value="true"/>
+</engineerTo>
+<sourcePk>BB588C38-0345-7B59-84AF-5C374AF95817</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12C02E42-EED3-5452-25DD-58FE4896E2F9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B92D8A2D-4B3B-02AD-59F2-B7BAB2F4E9F1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

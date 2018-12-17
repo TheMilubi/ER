@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B92D8A2D-4B3B-02AD-59F2-B7BAB2F4E9F1" name="ContratoVida">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:26:38 UTC</createdTime>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<engineerTo>
+<item key="D4677160-470B-663D-3C1F-F5A3C612D880" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>31392945-F830-CAEE-E55C-1417E7F8E978</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codSeguro" id="F81F5D6F-505F-C128-6700-16762E54EBB8">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:28:41 UTC</createdTime>
+<generatorID>A8EA8E2F-8A1A-D8EF-A784-8295B3FBF2F1</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<engineerTo>
+<item key="D4677160-470B-663D-3C1F-F5A3C612D880" value="true"/>
+</engineerTo>
+<referedAttribute>58C3DF0C-04EA-14D0-D7BC-94D985C5ADA5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

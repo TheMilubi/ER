@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="905543EA-20D6-AF9C-CD16-8048ABA32A2A" name="ContratoHogar">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>D241BBAD-7A08-3FB8-7B3C-B25A891B95A3</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ci" id="97BE81F3-0C98-1307-F06F-F4064B459279">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>1C2BD1FD-1C8F-2328-5455-DF7C9C00D97D</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B733102-01C5-530F-6678-EDC70858C67D" referredColumn="F32ECF3F-B80F-51DB-7F9E-F0CB102AF7A5"/>
+</associations>
+</Column>
+<Column name="ci1" id="1CF099C3-6D2E-AF01-F535-4BE7F6649DF3">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>8C07BD37-A190-ABC7-7795-EA2B6466355B</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B733102-01C5-530F-6678-EDC70858C67D" referredColumn="807FC97C-B8DD-B265-CAD5-6B4EBF82E59D"/>
+</associations>
+</Column>
+<Column name="fecha" id="B68EEC1E-299E-0AE4-174C-110A55E311A8">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>33B3CD87-FF6F-D7DA-7B66-DFE67A19F8D2</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B733102-01C5-530F-6678-EDC70858C67D" referredColumn="42EC8272-48F5-97C1-D6DB-096D07921DCF"/>
+</associations>
+</Column>
+<Column name="SeguroHogar_codSeguro" id="04E92581-6E4A-0EB8-3606-5CF2010C5D1E">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>D3BE24DD-8F93-B4D6-6DB4-05E0A26C2E42</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFD0F450-14AE-68E3-CD55-CD350477E95E" referredColumn="D14F61FB-F214-4EC3-19B4-1E0CF536AA40"/>
+</associations>
+</Column>
+<Column name="direccion" id="80C25BAC-6EBE-B7C2-AF5B-FBF984CEFC0E">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>998D0A43-0CC5-59E7-D122-B55978234BE0</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="164DC5D9-7C9F-2349-8B7C-38D06C51ACB8" name="ContratoHogar_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>5F505428-C871-9DFA-D0CB-1379649BE57A</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97BE81F3-0C98-1307-F06F-F4064B459279"/>
+<colUsage columnID="1CF099C3-6D2E-AF01-F535-4BE7F6649DF3"/>
+<colUsage columnID="B68EEC1E-299E-0AE4-174C-110A55E311A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C838BF32-628F-D6BE-4813-E9D959CB9BB6" name="ContratoHogar_Contrato_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>FEC5103C-7A7C-5CD3-7C2A-0DBE622D99F6</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97BE81F3-0C98-1307-F06F-F4064B459279"/>
+<colUsage columnID="1CF099C3-6D2E-AF01-F535-4BE7F6649DF3"/>
+<colUsage columnID="B68EEC1E-299E-0AE4-174C-110A55E311A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="430BAF30-2CFD-BD6E-AA28-C04DFDD1B11E" name="ContratoHogar_SeguroHogar_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>6137A745-7A8A-061D-5DDE-A9121BA1313C</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04E92581-6E4A-0EB8-3606-5CF2010C5D1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

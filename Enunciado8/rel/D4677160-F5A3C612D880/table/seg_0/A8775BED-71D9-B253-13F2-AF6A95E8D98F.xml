@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8775BED-71D9-B253-13F2-AF6A95E8D98F" name="ContratoCoche">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>7B79682B-7E9E-9ACA-5560-5A7F7909EB09</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ci" id="757DE931-543E-E205-34D7-ADAEC1542698">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>1C2BD1FD-1C8F-2328-5455-DF7C9C00D97D</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C4394FF-0AC9-BB80-E933-42DDFA6D1031" referredColumn="F32ECF3F-B80F-51DB-7F9E-F0CB102AF7A5"/>
+</associations>
+</Column>
+<Column name="ci1" id="34EC04CC-CD5C-33DB-B568-FE838D5F3D1E">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>8C07BD37-A190-ABC7-7795-EA2B6466355B</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C4394FF-0AC9-BB80-E933-42DDFA6D1031" referredColumn="807FC97C-B8DD-B265-CAD5-6B4EBF82E59D"/>
+</associations>
+</Column>
+<Column name="fecha" id="BEBB2F66-D3FD-DF6C-F260-E70FB491F99B">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>33B3CD87-FF6F-D7DA-7B66-DFE67A19F8D2</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C4394FF-0AC9-BB80-E933-42DDFA6D1031" referredColumn="42EC8272-48F5-97C1-D6DB-096D07921DCF"/>
+</associations>
+</Column>
+<Column name="SeguroCoche_codSeguro" id="DD9DD243-CA59-CBD8-E021-203D25AE1D70">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>78BD72BF-D652-E52B-CEF5-333E410B0364</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A068D986-7873-B804-90DB-E46FDCF386A0" referredColumn="A0DD67CB-A8FD-F480-8E43-69705E017D52"/>
+</associations>
+</Column>
+<Column name="matricula" id="3E45B5D6-2268-C8D3-FB7A-1CDFF91EAB8A">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>D2AF2475-611F-FA0A-A2D3-A263FE7689A4</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="recargo" id="F1CFF1A2-17B9-B47C-DF88-96AD8A99E920">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>FDCC3A44-F11F-9A70-57AA-F0A781E4B6CB</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descuento" id="068B31E3-6901-B1D7-1F59-F9794D83DEE8">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>86EFD143-EF36-549E-D293-2D43AD1DC0BC</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25996DD0-6B3B-FD03-0A00-AC63D3EF5AC7" name="ContratoCoche_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>5F505428-C871-9DFA-D0CB-1379649BE57A</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="757DE931-543E-E205-34D7-ADAEC1542698"/>
+<colUsage columnID="34EC04CC-CD5C-33DB-B568-FE838D5F3D1E"/>
+<colUsage columnID="BEBB2F66-D3FD-DF6C-F260-E70FB491F99B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A79D58F-87B5-220B-F6B0-82CCFCAEE066" name="ContratoCoche_Contrato_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>F0357849-83B6-1030-36C0-16037BEE8668</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="757DE931-543E-E205-34D7-ADAEC1542698"/>
+<colUsage columnID="34EC04CC-CD5C-33DB-B568-FE838D5F3D1E"/>
+<colUsage columnID="BEBB2F66-D3FD-DF6C-F260-E70FB491F99B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1FD964F-8AC5-D09C-4EF0-780B5D715A34" name="ContratoCoche_SeguroCoche_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>D16D8A24-EC4E-FD84-5C5C-99224B36D7BC</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD9DD243-CA59-CBD8-E021-203D25AE1D70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

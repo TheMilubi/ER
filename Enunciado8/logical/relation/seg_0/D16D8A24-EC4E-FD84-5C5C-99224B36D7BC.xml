@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COCHE" directorySegmentName="seg_0" id="D16D8A24-EC4E-FD84-5C5C-99224B36D7BC">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:29:21 UTC</createdTime>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<engineerTo>
+<item key="D4677160-470B-663D-3C1F-F5A3C612D880" value="true"/>
+</engineerTo>
+<sourcePk>BB588C38-0345-7B59-84AF-5C374AF95817</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CEF22B98-EDC8-CDD3-2C8F-6317C83852A7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7B79682B-7E9E-9ACA-5560-5A7F7909EB09</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

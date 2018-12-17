@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REALIZA" directorySegmentName="seg_0" id="7FD6A443-BD09-1425-C076-6C7EB3064BD4">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:09:02 UTC</createdTime>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<engineerTo>
+<item key="D4677160-470B-663D-3C1F-F5A3C612D880" value="true"/>
+</engineerTo>
+<sourcePk>37D817CC-D0F4-4F9E-9AE3-146EE0513053</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>56BEE12E-6DE3-AEEF-3477-47F69D9BCC48</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31392945-F830-CAEE-E55C-1417E7F8E978</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

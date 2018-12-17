@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1ABA7D4A-B2EF-F679-C16B-3AC8D68AAB26" name="SeguroCoche">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>CEF22B98-EDC8-CDD3-2C8F-6317C83852A7</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codSeguro" id="A0DD67CB-A8FD-F480-8E43-69705E017D52">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>58C3DF0C-04EA-14D0-D7BC-94D985C5ADA5</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="038FBDDD-BF4E-660F-88E5-8B634B121D86" referredColumn="FF7FEA3A-8FB1-DE51-EB0B-3478373914EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C76FF6E5-87A3-6F9D-6396-78061071F5B3" name="SeguroCoche_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>BB588C38-0345-7B59-84AF-5C374AF95817</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0DD67CB-A8FD-F480-8E43-69705E017D52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FDB70C7-F8B5-D36C-6EFF-2CE87F9418F2" name="SeguroCoche_Seguro_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>BA56E70C-F645-1085-8469-870954D78ADE</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0DD67CB-A8FD-F480-8E43-69705E017D52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

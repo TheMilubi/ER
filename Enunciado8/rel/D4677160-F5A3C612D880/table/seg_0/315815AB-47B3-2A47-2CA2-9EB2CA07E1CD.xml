@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="315815AB-47B3-2A47-2CA2-9EB2CA07E1CD" name="ContratoVida">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>B92D8A2D-4B3B-02AD-59F2-B7BAB2F4E9F1</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ci" id="AB3044F7-658B-0B36-C23D-BCD5DBE29A0A">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>1C2BD1FD-1C8F-2328-5455-DF7C9C00D97D</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CEC0053-DD7A-7FAB-0105-F7A188A6051B" referredColumn="F32ECF3F-B80F-51DB-7F9E-F0CB102AF7A5"/>
+</associations>
+</Column>
+<Column name="ci1" id="A33FF60E-C280-1D83-CDDC-78BEF4FB38E9">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>8C07BD37-A190-ABC7-7795-EA2B6466355B</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CEC0053-DD7A-7FAB-0105-F7A188A6051B" referredColumn="807FC97C-B8DD-B265-CAD5-6B4EBF82E59D"/>
+</associations>
+</Column>
+<Column name="fecha" id="861CC79C-5B97-976A-486A-A2257F26DB3D">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>33B3CD87-FF6F-D7DA-7B66-DFE67A19F8D2</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CEC0053-DD7A-7FAB-0105-F7A188A6051B" referredColumn="42EC8272-48F5-97C1-D6DB-096D07921DCF"/>
+</associations>
+</Column>
+<Column name="SeguroVida_codSeguro" id="27510361-24D9-F9D8-970C-5B86980ECCC0">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>F81F5D6F-505F-C128-6700-16762E54EBB8</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11E89404-D864-A897-FABA-08585B603DD8" referredColumn="1BFC97E1-83FC-4E44-19DB-6B16A6567FB9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="194C6A8F-4366-CBBF-FE41-3A8D445A4264" name="ContratoVida_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>5F505428-C871-9DFA-D0CB-1379649BE57A</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB3044F7-658B-0B36-C23D-BCD5DBE29A0A"/>
+<colUsage columnID="A33FF60E-C280-1D83-CDDC-78BEF4FB38E9"/>
+<colUsage columnID="861CC79C-5B97-976A-486A-A2257F26DB3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="489B7D6A-8613-A7AB-DB87-FB340224319B" name="ContratoVida_Contrato_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>2FDA11CB-78D1-790E-59AE-8FAF9455BE63</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB3044F7-658B-0B36-C23D-BCD5DBE29A0A"/>
+<colUsage columnID="A33FF60E-C280-1D83-CDDC-78BEF4FB38E9"/>
+<colUsage columnID="861CC79C-5B97-976A-486A-A2257F26DB3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F84CD391-F075-231A-E563-9F66AC9C955B" name="ContratoVida_SeguroVida_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:37:03 UTC</createdTime>
+<generatorID>A8EA8E2F-8A1A-D8EF-A784-8295B3FBF2F1</generatorID>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27510361-24D9-F9D8-970C-5B86980ECCC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

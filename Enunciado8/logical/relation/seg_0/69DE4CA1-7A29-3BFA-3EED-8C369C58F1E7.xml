@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRATA" directorySegmentName="seg_0" id="69DE4CA1-7A29-3BFA-3EED-8C369C58F1E7">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-17 17:10:38 UTC</createdTime>
+<ownerDesignName>Enunciado8</ownerDesignName>
+<engineerTo>
+<item key="D4677160-470B-663D-3C1F-F5A3C612D880" value="true"/>
+</engineerTo>
+<sourcePk>37D817CC-D0F4-4F9E-9AE3-146EE0513053</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AFEB265C-9AFE-4246-E7B6-523D218073AC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31392945-F830-CAEE-E55C-1417E7F8E978</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
