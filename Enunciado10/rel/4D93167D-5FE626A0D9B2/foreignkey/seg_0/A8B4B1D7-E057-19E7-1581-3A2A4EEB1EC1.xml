@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A8B4B1D7-E057-19E7-1581-3A2A4EEB1EC1" containerWithKeyObject="9CAD0215-1D12-6293-9FBB-267237FF806A" localFKIndex="1A255156-D393-42B0-CD39-4019C9A3FFDA" name="Atraco_Detenido_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>7B599B0C-3B0F-F8CD-AB0F-7D7AA79D9ABB</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<referredTableLongName>Detenido</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AB93239F-1E1D-E3D7-188F-1CB3A7179C14</referredTableID>
+<keyObject>406F48B8-6BBF-78D1-5C06-B298798731EA</keyObject>
+<referredKeyID>406F48B8-6BBF-78D1-5C06-B298798731EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codDetenido</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

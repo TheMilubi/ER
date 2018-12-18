@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBCEBD48-3803-74E5-3618-1BABE319F8B9" name="TarjetaVisita">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:09:59 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codSS" id="25D4EF13-ECC9-F70C-B24F-E29CF7A5237C">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:18:28 UTC</createdTime>
+<generatorID>D4535217-0BF7-416B-8FE8-06C9F5877A99</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<referedAttribute>2D5030AC-182A-D822-1550-44AA055EC017</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numTarjeta" id="4FD7CD5E-DC5B-2E24-8470-AE1E0E74EEBF">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:18:44 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaIni" id="5D5A3052-27D5-A1C1-E5B9-A906F23C2C63">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:19:23 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaFin" id="3F542FD9-5EC9-CC39-B1AC-5E344CF32362">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:19:39 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5023575E-868E-3D0A-BC0A-3CF8ED77EB69" name="TarjetaVisita PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:17:34 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25D4EF13-ECC9-F70C-B24F-E29CF7A5237C</attributeRef>
+<attributeRef>4FD7CD5E-DC5B-2E24-8470-AE1E0E74EEBF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

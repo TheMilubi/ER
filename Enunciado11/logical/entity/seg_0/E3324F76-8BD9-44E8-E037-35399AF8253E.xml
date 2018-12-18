@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3324F76-8BD9-44E8-E037-35399AF8253E" name="Cama">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:09:34 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numPlanta" id="2CF4EE41-214B-E947-7379-058058E094CB">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:23:35 UTC</createdTime>
+<generatorID>B34212E6-30D7-D33B-6181-32C435C03399</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<referedAttribute>017C6232-F8F7-412E-3BAB-BF2AF07493DC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numCama" id="C2E45304-1CE1-9993-9998-BD78899E03B3">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:22:06 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F75E03F-E6EC-F905-BC42-96755E4173B1" name="Cama PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:22:19 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2E45304-1CE1-9993-9998-BD78899E03B3</attributeRef>
+<attributeRef>2CF4EE41-214B-E947-7379-058058E094CB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

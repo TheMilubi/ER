@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20991CF4-2489-41EA-D122-464398FDB22C" name="CONTRATA">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sucursal_codSucursal" id="89FCA97A-A9DC-60B9-7F62-C5008C8C28E0">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EA37D75-D99E-5D02-F833-D39B0D686D61" referredColumn="63F1B9D6-BB35-05AA-A716-D987A7AAAC66"/>
+</associations>
+</Column>
+<Column name="Vigilante_codVigilante" id="8720E70C-3E07-601F-2FE0-23CF3D249AEE">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6CBA11D-1110-A0A5-595A-BC3F0A5A1D1D" referredColumn="4BF3B2DE-AB2B-A449-5876-A449DD3CE796"/>
+</associations>
+</Column>
+<Column name="fecha" id="73809D66-0ED5-0F14-DDE5-AC0CCCE080D2">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>36AFC8CF-415F-81D9-DA2B-C57BB4617AE5</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="arma" id="EBAC3069-35E5-AF09-DB5B-128BA4EE3BF2">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>5F4863A3-2784-0650-247E-C3D6210A9D33</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E49A9255-C6BA-2CA1-E4C5-B300237A290C" name="CONTRATA_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89FCA97A-A9DC-60B9-7F62-C5008C8C28E0"/>
+<colUsage columnID="8720E70C-3E07-601F-2FE0-23CF3D249AEE"/>
+<colUsage columnID="73809D66-0ED5-0F14-DDE5-AC0CCCE080D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82269550-F75B-145D-82B3-3B00DBEAED11" name="CONTRATA_Sucursal_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>AB0966C8-FB05-5A99-F21E-5576962A4708</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89FCA97A-A9DC-60B9-7F62-C5008C8C28E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D110748C-CDC5-A8B4-B7DA-D522C5F0C0A8" name="CONTRATA_Vigilante_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>AB0966C8-FB05-5A99-F21E-5576962A4708</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8720E70C-3E07-601F-2FE0-23CF3D249AEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

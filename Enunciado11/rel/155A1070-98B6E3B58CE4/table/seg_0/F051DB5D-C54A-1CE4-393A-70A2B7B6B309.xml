@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F051DB5D-C54A-1CE4-393A-70A2B7B6B309" name="Visita">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>2DED0569-ECCD-A4FB-BFDF-A76272EB0E2C</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecVisita" id="E0EBE855-5B1D-43F3-31CA-F08A78DFFFD4">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>28711341-D69C-7F68-A934-1B4EDE052409</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Paciente_codSS" id="2FFFF656-E2A9-E062-007D-B74F22FC2700">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>AAEF81D0-C787-B594-BBF0-1A45AB92AAC3</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14A72289-69AF-E24E-80A9-79D62C3D1D57" referredColumn="984D87D7-217E-4E73-E644-5B42C7F10418"/>
+</associations>
+</Column>
+<Column name="Medico_codMedico" id="64B03747-4885-8F58-644A-3F59EE48D7C2">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>14856F5B-1CAA-83CE-6582-1C8D21BF8FEF</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04415C20-48B0-C7A4-EF53-96FAA69672B3" referredColumn="4ACAEBFE-9871-FF34-1411-D8A593935ECA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48DFC349-885C-AFFE-D6C8-A3B26643696E" name="Visita_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>AF934FBD-0ED2-3896-0722-4DA81E568120</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0EBE855-5B1D-43F3-31CA-F08A78DFFFD4"/>
+<colUsage columnID="2FFFF656-E2A9-E062-007D-B74F22FC2700"/>
+<colUsage columnID="64B03747-4885-8F58-644A-3F59EE48D7C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AF61EEB-36F2-1211-1949-946E2CB07F3F" name="Visita_Paciente_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>57A18108-3F4C-D4F7-B9D1-75697B971C13</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FFFF656-E2A9-E062-007D-B74F22FC2700"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3DCE9D3-3491-A0E7-151B-510784A72260" name="Visita_Medico_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>7C5A4A51-C12A-C118-6991-582D9CE1DE7F</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64B03747-4885-8F58-644A-3F59EE48D7C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

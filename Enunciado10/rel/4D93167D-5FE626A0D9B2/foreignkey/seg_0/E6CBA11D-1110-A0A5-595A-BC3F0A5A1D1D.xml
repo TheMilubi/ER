@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6CBA11D-1110-A0A5-595A-BC3F0A5A1D1D" containerWithKeyObject="20991CF4-2489-41EA-D122-464398FDB22C" localFKIndex="D110748C-CDC5-A8B4-B7DA-D522C5F0C0A8" name="CONTRATA_Vigilante_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>AB0966C8-FB05-5A99-F21E-5576962A4708</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<referredTableLongName>Vigilante</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F7822194-2C10-9757-5A35-5430C58237E2</referredTableID>
+<keyObject>53362550-D750-C48E-0B73-F32AC74AAA32</keyObject>
+<referredKeyID>53362550-D750-C48E-0B73-F32AC74AAA32</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codVigilante</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

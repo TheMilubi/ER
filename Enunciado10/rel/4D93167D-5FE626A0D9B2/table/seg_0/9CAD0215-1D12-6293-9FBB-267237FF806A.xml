@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CAD0215-1D12-6293-9FBB-267237FF806A" name="Atraco">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>905137F5-61EB-B5D2-8509-D65799F3B037</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sucursal_codSucursal" id="F1704906-0187-7EBA-3C1F-E49D923F0FD2">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>203384D2-165D-EBDC-1FD9-3BC11E045294</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F396E35F-6ADB-B4EC-39DA-B88137626DC7" referredColumn="63F1B9D6-BB35-05AA-A716-D987A7AAAC66"/>
+</associations>
+</Column>
+<Column name="Detenido_codDetenido" id="7E689831-A100-3B91-8CF8-F388002651CE">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>FED850AA-21A8-9C5E-0550-EEECEC2F3994</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8B4B1D7-E057-19E7-1581-3A2A4EEB1EC1" referredColumn="8159596E-BD81-74FF-D106-29F995A69812"/>
+</associations>
+</Column>
+<Column name="fechaAtraco" id="0ECFB6D7-222D-F431-4D82-C18171B7654F">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>200BE3B4-42DF-3ED7-3FCF-676D73570C23</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Juez_codJuez" id="C60434BC-BDAA-A534-0B4F-2121BD47C20E">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>A80CB1E9-14C8-87DB-A82E-F6AD345F36A8</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A109651-8ADC-3D80-3976-A83D026D19F0" referredColumn="8266013C-F82B-ECDF-2D88-86B52A4D9F68"/>
+</associations>
+</Column>
+<Column name="condenado" id="03BC48F2-0254-6C7D-A418-9A48C6A932B7">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>7DB0C209-C098-DCA2-3425-2881FA4123AA</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>0A109651-8ADC-3D80-3976-A83D026D19F0</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="condena" id="EEE95320-D8D0-8E2D-B57F-7DA5958022BE">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<comment>Años de condena</comment>
+<generatorID>2FD42AAE-A6B5-4DB1-1733-869200D025C4</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>0A109651-8ADC-3D80-3976-A83D026D19F0</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6C0BD54-29E5-167C-4C27-2C0A9E3666E8" name="Atraco_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>09C90EDB-DE8C-1A30-2C51-438FBCEE9F40</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1704906-0187-7EBA-3C1F-E49D923F0FD2"/>
+<colUsage columnID="7E689831-A100-3B91-8CF8-F388002651CE"/>
+<colUsage columnID="0ECFB6D7-222D-F431-4D82-C18171B7654F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9DEB127-33EB-4E22-B409-C83FB1B39986" name="Atraco_Sucursal_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>2DB1D04C-A984-7F44-CBBF-EFCFDF70F1ED</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1704906-0187-7EBA-3C1F-E49D923F0FD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A255156-D393-42B0-CD39-4019C9A3FFDA" name="Atraco_Detenido_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>7B599B0C-3B0F-F8CD-AB0F-7D7AA79D9ABB</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E689831-A100-3B91-8CF8-F388002651CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2553D926-F421-5933-8613-3F98330D809A" name="Atraco_Juez_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>B9AF38AF-A839-BA46-A8DB-5041670962B0</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C60434BC-BDAA-A534-0B4F-2121BD47C20E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

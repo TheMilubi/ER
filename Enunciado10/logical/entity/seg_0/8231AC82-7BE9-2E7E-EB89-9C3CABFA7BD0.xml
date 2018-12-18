@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8231AC82-7BE9-2E7E-EB89-9C3CABFA7BD0" name="Vigilante">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:17:44 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codVigilante" id="17152C33-53A7-35D7-D0F6-63F1AA62E7CB">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:17:58 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad" id="68B13BAA-A1C3-D47A-972A-4E36F386A06A">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:18:05 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30D34273-B6F3-3838-D94D-706EEE0269FB" name="Vigilante PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:18:23 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17152C33-53A7-35D7-D0F6-63F1AA62E7CB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

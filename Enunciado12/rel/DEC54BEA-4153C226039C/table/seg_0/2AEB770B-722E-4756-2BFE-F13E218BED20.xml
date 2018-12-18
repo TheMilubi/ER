@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AEB770B-722E-4756-2BFE-F13E218BED20" name="Itinerario">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>948BFED4-81F1-7190-AA76-1489FBE9E83B</generatorID>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codItinerario" id="3C5A37B6-339C-5631-26C8-0AE9E2CFF810">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>FB046510-6DBA-9D38-B296-735F13C3B389</generatorID>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracion" id="7E4E8BDF-F35C-DEB3-26FD-0C56F191B208">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<comment>minutos</comment>
+<generatorID>DF83657C-B356-A6F2-97FF-AA4809FE3368</generatorID>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitud" id="8E6BDF19-8545-3B89-4AE8-7454D8B4F1F2">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<comment>metros</comment>
+<generatorID>DCD47313-0DB9-87EC-284D-C50157522626</generatorID>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maxVisitantes" id="09CEB635-A3FA-76F1-CDD3-3AFF80664606">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>D2DD5A23-0423-1F52-BA2B-572E0167F6A9</generatorID>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numEspecies" id="336FCD81-78EB-B868-5E89-428BD0CF9678">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>9E9CEA51-7AF8-8849-C737-F84A50E7199B</generatorID>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1EAD39E-6548-CE30-8FD9-382343FB3C18" name="Itinerario_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>4431B5F4-D999-9351-5692-EB5115BFF026</generatorID>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C5A37B6-339C-5631-26C8-0AE9E2CFF810"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

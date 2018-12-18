@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71D6F3CD-6C00-3CA7-05E7-47E41C010BFC" name="ASIGNADO">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Paciente_codSS" id="A09FAA6C-F956-14CB-6710-DAF82C25BA96">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07013593-B3D1-EEA8-3950-9A85F0A0B4A1" referredColumn="984D87D7-217E-4E73-E644-5B42C7F10418"/>
+</associations>
+</Column>
+<Column name="Cama_numCama" id="E8D67F48-244C-303F-0E04-74F8AD9E768D">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4B4B2FD-2FD3-72E5-3621-B696092D4004" referredColumn="85047E27-ADD9-7A98-2C54-63434512BDB0"/>
+</associations>
+</Column>
+<Column name="Cama_numPlanta" id="0CD73A1A-36B3-7182-C255-C0E9888ABED3">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4B4B2FD-2FD3-72E5-3621-B696092D4004" referredColumn="F2571054-9A68-C763-403E-3C09D71653E6"/>
+</associations>
+</Column>
+<Column name="fecha" id="3A9D972B-FA91-AF12-313A-A6518395EDC6">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>C481E1E2-7CB9-FC25-C143-7DFEE5A78B6C</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="808EFBBF-658C-9851-7B74-6D2803716425" name="ASIGNADO_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A09FAA6C-F956-14CB-6710-DAF82C25BA96"/>
+<colUsage columnID="E8D67F48-244C-303F-0E04-74F8AD9E768D"/>
+<colUsage columnID="0CD73A1A-36B3-7182-C255-C0E9888ABED3"/>
+<colUsage columnID="3A9D972B-FA91-AF12-313A-A6518395EDC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50662C5F-4A47-4E52-CA0B-3A37F2042CFB" name="ASIGNADO_Paciente_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>EFBEA6AE-03B1-332A-F9C5-D6F6A54FBA1D</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A09FAA6C-F956-14CB-6710-DAF82C25BA96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="832716DF-49B8-E5B0-9C4B-CD9657A8ACB5" name="ASIGNADO_Cama_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>EFBEA6AE-03B1-332A-F9C5-D6F6A54FBA1D</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8D67F48-244C-303F-0E04-74F8AD9E768D"/>
+<colUsage columnID="0CD73A1A-36B3-7182-C255-C0E9888ABED3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

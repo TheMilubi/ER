@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRATA" directorySegmentName="seg_0" id="F7511EB5-22F9-547E-9708-04EDE84D4DCB">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:16:37 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3DAF7EB1-DEE0-AF2B-BC0E-8C444D032F9E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D8B9ED85-6F56-7991-D1D8-6B96D9BD026B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

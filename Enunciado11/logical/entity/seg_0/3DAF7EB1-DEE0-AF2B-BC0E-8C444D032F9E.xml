@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DAF7EB1-DEE0-AF2B-BC0E-8C444D032F9E" name="Diagnostico">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:53:58 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codDiagnostico" id="03ED14ED-7803-FB08-9270-F44BACF95250">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:14:28 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="788807C7-ACF0-A044-E4B1-373F632D2B23">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:14:52 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D0D04D4-FD80-5DD1-174B-4ADA1EB5AE89" name="Diagnostico PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:14:50 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03ED14ED-7803-FB08-9270-F44BACF95250</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

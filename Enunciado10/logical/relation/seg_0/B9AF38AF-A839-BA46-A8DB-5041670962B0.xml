@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="JUZGA" directorySegmentName="seg_0" id="B9AF38AF-A839-BA46-A8DB-5041670962B0">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:41:30 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<sourcePk>11A141D6-8B52-A4F1-ED2A-FE778604FCA0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>74A83AFF-34D9-80FE-7CF1-F2D6DA04CF5C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>905137F5-61EB-B5D2-8509-D65799F3B037</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="condenado" id="7DB0C209-C098-DCA2-3425-2881FA4123AA">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:42:41 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</attribute>
+<attribute name="condena" id="2FD42AAE-A6B5-4DB1-1733-869200D025C4">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:43:46 UTC</createdTime>
+<comment>Años de condena</comment>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F396E35F-6ADB-B4EC-39DA-B88137626DC7" containerWithKeyObject="9CAD0215-1D12-6293-9FBB-267237FF806A" localFKIndex="F9DEB127-33EB-4E22-B409-C83FB1B39986" name="Atraco_Sucursal_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>2DB1D04C-A984-7F44-CBBF-EFCFDF70F1ED</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<referredTableLongName>Sucursal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0FD78E11-62F3-A3E6-F15C-02F47952537C</referredTableID>
+<keyObject>C560FBAA-327B-8501-0C67-993AFFD1AEE6</keyObject>
+<referredKeyID>C560FBAA-327B-8501-0C67-993AFFD1AEE6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codSucursal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

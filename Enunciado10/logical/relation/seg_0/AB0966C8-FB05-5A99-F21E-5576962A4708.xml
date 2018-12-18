@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRATA" directorySegmentName="seg_0" id="AB0966C8-FB05-5A99-F21E-5576962A4708">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:22:53 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2F810A88-4AA8-75B6-4722-A44B7DB64A2B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8231AC82-7BE9-2E7E-EB89-9C3CABFA7BD0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fecha" id="36AFC8CF-415F-81D9-DA2B-C57BB4617AE5">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:23:04 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="arma" id="5F4863A3-2784-0650-247E-C3D6210A9D33">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:28:36 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

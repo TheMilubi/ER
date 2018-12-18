@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB93239F-1E1D-E3D7-188F-1CB3A7179C14" name="Detenido">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>F06EB962-70CF-C29E-2E75-BAF68356B895</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codDetenido" id="8159596E-BD81-74FF-D106-29F995A69812">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>E439E8F4-D0CC-357E-3E65-3D2CD4392968</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="6716C2C8-FC42-A29E-75A9-CA06E395482B">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>C2C9E657-5591-278D-9DEA-66CD7C340235</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Banda_codBanda" id="06862570-5C62-EE1A-C2B0-A4B1DE09C313">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>BC4F2F63-4E03-C0F8-AD15-8A6453C5D3D1</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73040E96-5728-C13F-F8A2-856181D09455" referredColumn="04BB9917-B283-24B7-237F-A6B54AE062DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="406F48B8-6BBF-78D1-5C06-B298798731EA" name="Detenido_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>D00512C8-04F2-8708-9C0D-75BEE4C0050D</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8159596E-BD81-74FF-D106-29F995A69812"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00B168BA-A78A-4A83-FC52-4C884E0A7B30" name="Detenido_Banda_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>FD39DA37-0444-764A-2084-F6A1CF613A94</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06862570-5C62-EE1A-C2B0-A4B1DE09C313"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

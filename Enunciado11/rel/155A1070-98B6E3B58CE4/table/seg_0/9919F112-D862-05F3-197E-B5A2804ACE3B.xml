@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9919F112-D862-05F3-197E-B5A2804ACE3B" name="TarjetaVisita">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>BBCEBD48-3803-74E5-3618-1BABE319F8B9</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Paciente_codSS" id="0E3D9B26-DA15-79EE-F0D9-599ABC2698E6">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>25D4EF13-ECC9-F70C-B24F-E29CF7A5237C</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E38A9E5-7A7C-E943-E7D1-B2E5E4D7C4A3" referredColumn="984D87D7-217E-4E73-E644-5B42C7F10418"/>
+</associations>
+</Column>
+<Column name="numTarjeta" id="9F8A302F-A32E-9BB4-854E-B3E8AF58F673">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>4FD7CD5E-DC5B-2E24-8470-AE1E0E74EEBF</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaIni" id="BFA40E42-D358-D57C-24DD-1F7772F51DF1">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>5D5A3052-27D5-A1C1-E5B9-A906F23C2C63</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaFin" id="F79518DC-AED1-1241-5C26-08D18332646C">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>3F542FD9-5EC9-CC39-B1AC-5E344CF32362</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBC1CAAE-7DE8-6CC5-E8D3-77C5CEC3A4E1" name="TarjetaVisita_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>5023575E-868E-3D0A-BC0A-3CF8ED77EB69</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E3D9B26-DA15-79EE-F0D9-599ABC2698E6"/>
+<colUsage columnID="9F8A302F-A32E-9BB4-854E-B3E8AF58F673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64805D33-B398-3D19-D411-170B5B63CF83" name="TarjetaVisita_Paciente_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>D4535217-0BF7-416B-8FE8-06C9F5877A99</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E3D9B26-DA15-79EE-F0D9-599ABC2698E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

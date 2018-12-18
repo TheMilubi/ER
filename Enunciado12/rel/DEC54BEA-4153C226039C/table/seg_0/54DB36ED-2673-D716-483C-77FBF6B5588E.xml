@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54DB36ED-2673-D716-483C-77FBF6B5588E" name="Guia">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>A14AF920-DEDA-CEBC-4A2B-D0B547721FFE</generatorID>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="731B98FB-2978-8FC6-9CD7-5332856C4A5B">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>4675A4A1-1159-BCBF-D780-455DAAC70250</generatorID>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D52676B1-5719-3F67-8D42-94A992656082" referredColumn="C3676053-8404-EA6B-2FCF-FC4B7F52A045"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20A1B894-97BD-ED70-3980-08DFA8765742" name="Guia_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>22429BDA-E5D5-AEEF-C8E0-C2868E1A7D73</generatorID>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="731B98FB-2978-8FC6-9CD7-5332856C4A5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3365007-2013-DB91-7B96-DC40CD3C890D" name="Guia_Persona_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>78B16AC8-96BC-8172-DDAC-832230529FF4</generatorID>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="731B98FB-2978-8FC6-9CD7-5332856C4A5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

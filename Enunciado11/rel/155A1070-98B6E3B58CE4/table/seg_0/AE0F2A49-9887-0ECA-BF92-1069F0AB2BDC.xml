@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE0F2A49-9887-0ECA-BF92-1069F0AB2BDC" name="DIAGNOSIS">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Paciente_codSS" id="8EC040E0-4038-1926-88CF-C1A515F963E5">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CDB7B30-A1C4-38F0-8EFE-B3B4EE8C5A75" referredColumn="984D87D7-217E-4E73-E644-5B42C7F10418"/>
+</associations>
+</Column>
+<Column name="Diagnostico_codDiagnostico" id="8EF18F36-AB76-45D1-5DB0-3B05CA53430B">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70B5E141-EDAC-C7AF-D1AB-1517F9F05A48" referredColumn="EB403DEB-4EDE-31E5-6FDE-651F89651904"/>
+</associations>
+</Column>
+<Column name="fecDiag" id="39C6733E-B00D-BAA4-B9D7-F6B5C4ED820D">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>5A292497-3F6F-752F-0BC3-ED0F9FE482C6</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B149D5B-136A-86FC-BBC5-BDE2F054E18F" name="DIAGNOSIS_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EC040E0-4038-1926-88CF-C1A515F963E5"/>
+<colUsage columnID="8EF18F36-AB76-45D1-5DB0-3B05CA53430B"/>
+<colUsage columnID="39C6733E-B00D-BAA4-B9D7-F6B5C4ED820D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0857360-6D69-C985-7091-417AA2B76C48" name="DIAGNOSIS_Paciente_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>6419DCD0-837E-6896-652B-BD13852EE8EE</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EC040E0-4038-1926-88CF-C1A515F963E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C4A83F3-41A8-3367-9A94-03A566F3587C" name="DIAGNOSIS_Diagnostico_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>6419DCD0-837E-6896-652B-BD13852EE8EE</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EF18F36-AB76-45D1-5DB0-3B05CA53430B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

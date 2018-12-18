@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FD78E11-62F3-A3E6-F15C-02F47952537C" name="Sucursal">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>2F810A88-4AA8-75B6-4722-A44B7DB64A2B</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codSucursal" id="63F1B9D6-BB35-05AA-A716-D987A7AAAC66">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>0C606079-2B3F-D581-5EDC-658B214FEB91</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dirSucursal" id="4B94A288-1D67-84D3-FA35-AA7173A9B01E">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>A200F7DB-25EB-7C0C-9F4F-5409FBA3FEDE</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numEmpleados" id="639DDAEE-C55F-73CB-2825-3BBCE0CAB20F">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>B7FB1111-D691-867E-92BE-0EF1FA23FC2A</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EntidadBancaria_codEBancaria" id="00A4B896-3241-6A1F-27A3-41E9A35DEB0A">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>8863DB83-67EA-182D-A116-FC96A00327B4</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFC7663A-D1AC-C350-979E-5FE7DD4C42D9" referredColumn="3DA3D9F3-B2B6-7896-F3AE-87B05AB2CBD9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C560FBAA-327B-8501-0C67-993AFFD1AEE6" name="Sucursal_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>D37AF60B-F87A-76EF-DC22-E78CBD1AD68C</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63F1B9D6-BB35-05AA-A716-D987A7AAAC66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E914F17D-3169-D79D-8DFF-1D5230C44F9A" name="Sucursal_EntidadBancaria_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>A5B3E89C-3C8D-05F3-5AA2-00E678F6054C</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00A4B896-3241-6A1F-27A3-41E9A35DEB0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

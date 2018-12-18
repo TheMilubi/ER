@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="699585AD-8CF4-8EBE-C1F3-E0575BEA94AB" name="TRATA">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Diagnostico_codDiagnostico" id="0A999E1E-48A0-9022-19E6-B2A1B72CC9F0">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA329FF2-56E1-BDD0-F717-28C8FF8ED225" referredColumn="EB403DEB-4EDE-31E5-6FDE-651F89651904"/>
+</associations>
+</Column>
+<Column name="Medico_codMedico" id="66B67AE3-1488-7D59-8623-CBBB15E194C4">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ABA00C6-1BA9-8DDD-217E-2DFF6F89653D" referredColumn="4ACAEBFE-9871-FF34-1411-D8A593935ECA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52EA851E-D655-F4BA-EA14-7BF08ABE7421" name="TRATA_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A999E1E-48A0-9022-19E6-B2A1B72CC9F0"/>
+<colUsage columnID="66B67AE3-1488-7D59-8623-CBBB15E194C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05BB408C-CCDB-D239-D313-6EF6DD9EAB45" name="TRATA_Diagnostico_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>F7511EB5-22F9-547E-9708-04EDE84D4DCB</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A999E1E-48A0-9022-19E6-B2A1B72CC9F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF2C3940-7081-9C04-95CE-10BE78399399" name="TRATA_Medico_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>F7511EB5-22F9-547E-9708-04EDE84D4DCB</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66B67AE3-1488-7D59-8623-CBBB15E194C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

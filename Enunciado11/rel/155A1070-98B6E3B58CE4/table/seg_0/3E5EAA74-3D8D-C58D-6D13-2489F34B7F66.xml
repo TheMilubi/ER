@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E5EAA74-3D8D-C58D-6D13-2489F34B7F66" name="Cama">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>E3324F76-8BD9-44E8-E037-35399AF8253E</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Planta_numPlanta" id="F2571054-9A68-C763-403E-3C09D71653E6">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>2CF4EE41-214B-E947-7379-058058E094CB</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="945A6E1F-0044-23C2-A368-02C366AF9006" referredColumn="8CA8797A-F7E6-233D-48A8-E1EA2533D7BF"/>
+</associations>
+</Column>
+<Column name="numCama" id="85047E27-ADD9-7A98-2C54-63434512BDB0">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>C2E45304-1CE1-9993-9998-BD78899E03B3</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4649FF8-CE8C-49E9-820B-EA3EDB87AC61" name="Cama_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>0F75E03F-E6EC-F905-BC42-96755E4173B1</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85047E27-ADD9-7A98-2C54-63434512BDB0"/>
+<colUsage columnID="F2571054-9A68-C763-403E-3C09D71653E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E62931E-333D-28AF-0FE6-18D152A9F82F" name="Cama_Planta_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:24:32 UTC</createdTime>
+<generatorID>B34212E6-30D7-D33B-6181-32C435C03399</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2571054-9A68-C763-403E-3C09D71653E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ATRACANTE" directorySegmentName="seg_0" id="7B599B0C-3B0F-F8CD-AB0F-7D7AA79D9ABB">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:37:17 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<sourcePk>D00512C8-04F2-8708-9C0D-75BEE4C0050D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F06EB962-70CF-C29E-2E75-BAF68356B895</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>905137F5-61EB-B5D2-8509-D65799F3B037</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

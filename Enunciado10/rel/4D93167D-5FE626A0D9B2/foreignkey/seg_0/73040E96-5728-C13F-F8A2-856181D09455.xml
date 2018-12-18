@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="73040E96-5728-C13F-F8A2-856181D09455" containerWithKeyObject="AB93239F-1E1D-E3D7-188F-1CB3A7179C14" localFKIndex="00B168BA-A78A-4A83-FC52-4C884E0A7B30" name="Detenido_Banda_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:44:51 UTC</createdTime>
+<generatorID>FD39DA37-0444-764A-2084-F6A1CF613A94</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<referredTableLongName>Banda</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F265617-F4A0-5C3E-9CD9-AAE264296F60</referredTableID>
+<keyObject>F9D4B79F-ECBC-9836-3C02-396A7527E715</keyObject>
+<referredKeyID>F9D4B79F-ECBC-9836-3C02-396A7527E715</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codBanda</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

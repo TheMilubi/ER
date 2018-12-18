@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="905137F5-61EB-B5D2-8509-D65799F3B037" name="Atraco">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:36:31 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codSucursal" id="203384D2-165D-EBDC-1FD9-3BC11E045294">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:36:57 UTC</createdTime>
+<generatorID>2DB1D04C-A984-7F44-CBBF-EFCFDF70F1ED</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<referedAttribute>0C606079-2B3F-D581-5EDC-658B214FEB91</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codDetenido" id="FED850AA-21A8-9C5E-0550-EEECEC2F3994">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:37:17 UTC</createdTime>
+<generatorID>7B599B0C-3B0F-F8CD-AB0F-7D7AA79D9ABB</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<referedAttribute>E439E8F4-D0CC-357E-3E65-3D2CD4392968</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaAtraco" id="200BE3B4-42DF-3ED7-3FCF-676D73570C23">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:37:44 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codJuez" id="A80CB1E9-14C8-87DB-A82E-F6AD345F36A8">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:41:30 UTC</createdTime>
+<generatorID>B9AF38AF-A839-BA46-A8DB-5041670962B0</generatorID>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="true"/>
+</engineerTo>
+<referedAttribute>04B4EBC5-6177-A049-7E98-8E8A518B817E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09C90EDB-DE8C-1A30-2C51-438FBCEE9F40" name="Atraco PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 17:36:57 UTC</createdTime>
+<ownerDesignName>Enunciado10</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4D93167D-FDE6-7C14-C355-5FE626A0D9B2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>203384D2-165D-EBDC-1FD9-3BC11E045294</attributeRef>
+<attributeRef>FED850AA-21A8-9C5E-0550-EEECEC2F3994</attributeRef>
+<attributeRef>200BE3B4-42DF-3ED7-3FCF-676D73570C23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

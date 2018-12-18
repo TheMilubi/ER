@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2DED0569-ECCD-A4FB-BFDF-A76272EB0E2C" name="Visita">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:06:35 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecVisita" id="28711341-D69C-7F68-A934-1B4EDE052409">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:13:01 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codSS" id="AAEF81D0-C787-B594-BBF0-1A45AB92AAC3">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:13:59 UTC</createdTime>
+<generatorID>57A18108-3F4C-D4F7-B9D1-75697B971C13</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<referedAttribute>2D5030AC-182A-D822-1550-44AA055EC017</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codMedico" id="14856F5B-1CAA-83CE-6582-1C8D21BF8FEF">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:14:16 UTC</createdTime>
+<generatorID>7C5A4A51-C12A-C118-6991-582D9CE1DE7F</generatorID>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<referedAttribute>5D60C08F-5381-D5D8-7AD2-0D286C0FE9CE</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AF934FBD-0ED2-3896-0722-4DA81E568120" name="Visita PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:13:29 UTC</createdTime>
+<ownerDesignName>Enunciado11</ownerDesignName>
+<engineerTo>
+<item key="155A1070-AD48-0AA6-97E3-98B6E3B58CE4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28711341-D69C-7F68-A934-1B4EDE052409</attributeRef>
+<attributeRef>AAEF81D0-C787-B594-BBF0-1A45AB92AAC3</attributeRef>
+<attributeRef>14856F5B-1CAA-83CE-6582-1C8D21BF8FEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

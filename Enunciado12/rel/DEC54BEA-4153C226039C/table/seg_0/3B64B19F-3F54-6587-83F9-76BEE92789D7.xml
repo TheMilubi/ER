@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B64B19F-3F54-6587-83F9-76BEE92789D7" name="REALIZA">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Guia_nombre" id="AE77DDA9-A704-3F44-FA2E-D1E1C2223BE1">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72FB4BBC-155A-05B8-A0A0-BB14BA951F57" referredColumn="731B98FB-2978-8FC6-9CD7-5332856C4A5B"/>
+</associations>
+</Column>
+<Column name="Itinerario_codItinerario" id="41CAACF6-EECC-F708-4845-B8B4E69C28E2">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D29262B-7B96-C415-DCC1-AA733C635741" referredColumn="3C5A37B6-339C-5631-26C8-0AE9E2CFF810"/>
+</associations>
+</Column>
+<Column name="fecha" id="BBD52AF5-B2F6-D8E7-9093-19A1B9B12CA1">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>D77EA952-7821-78CE-4E3F-A612B5659B11</generatorID>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93507E3B-E291-45C5-8A55-8F404343B181" name="REALIZA_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE77DDA9-A704-3F44-FA2E-D1E1C2223BE1"/>
+<colUsage columnID="41CAACF6-EECC-F708-4845-B8B4E69C28E2"/>
+<colUsage columnID="BBD52AF5-B2F6-D8E7-9093-19A1B9B12CA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D37D4C38-F5F3-36BE-C529-754E1ECE9754" name="REALIZA_Guia_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>D3A56516-038B-8D44-6CC6-93383FEC867F</generatorID>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE77DDA9-A704-3F44-FA2E-D1E1C2223BE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C966CCD-2F38-96E3-87F7-529125E5D5B0" name="REALIZA_Itinerario_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>D3A56516-038B-8D44-6CC6-93383FEC867F</generatorID>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41CAACF6-EECC-F708-4845-B8B4E69C28E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
