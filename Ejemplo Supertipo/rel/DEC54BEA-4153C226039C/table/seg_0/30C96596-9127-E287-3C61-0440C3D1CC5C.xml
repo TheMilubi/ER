@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30C96596-9127-E287-3C61-0440C3D1CC5C" name="Cuidador">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>57AEAF3C-3CBF-80F9-4D5C-758EB03C6BF1</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="931090EF-A9DF-C013-D0F8-56E90BD4CCAC">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>4675A4A1-1159-BCBF-D780-455DAAC70250</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D26205E9-DEB6-698F-4650-2D16532074C7" referredColumn="C3676053-8404-EA6B-2FCF-FC4B7F52A045"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1EFFEBA-1E1E-D75B-C041-77BE6B8A85DE" name="Cuidador_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>22429BDA-E5D5-AEEF-C8E0-C2868E1A7D73</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="931090EF-A9DF-C013-D0F8-56E90BD4CCAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1967B738-BE48-34C5-A45F-8A131E8BD819" name="Cuidador_Persona_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>3CEC377C-1A40-F324-E896-C3AFD47FBB3E</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="931090EF-A9DF-C013-D0F8-56E90BD4CCAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

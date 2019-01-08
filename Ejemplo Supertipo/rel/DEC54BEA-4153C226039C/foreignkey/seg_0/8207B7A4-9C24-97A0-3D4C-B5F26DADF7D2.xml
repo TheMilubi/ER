@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8207B7A4-9C24-97A0-3D4C-B5F26DADF7D2" containerWithKeyObject="BEF65A39-FD20-357C-E7A7-F08507303A4D" localFKIndex="8ED8BCE5-1C8B-131C-6D94-4C5F033A8E9D" name="Especie_Zona_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>C32908D4-4B83-16E2-32CC-691B990CF84F</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<referredTableLongName>Zona</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>71A3DE56-3F2C-5E96-5C7D-0F656B4E9AB1</referredTableID>
+<keyObject>7229DDF9-2E18-4C63-DC4A-45C767FFB8AF</keyObject>
+<referredKeyID>7229DDF9-2E18-4C63-DC4A-45C767FFB8AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nombre</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

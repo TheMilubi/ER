@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RECORRE" directorySegmentName="seg_0" id="D2C00F4F-392B-05F6-7152-2F878E90DE05">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:11:51 UTC</createdTime>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<engineerTo>
+<item key="DEC54BEA-F010-BB31-526D-4153C226039C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>948BFED4-81F1-7190-AA76-1489FBE9E83B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7313F607-BEBA-28E5-DF18-69C0C4B9AD50</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

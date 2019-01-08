@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E53B0FF-B47E-DC36-4041-505F4D7C55AB" containerWithKeyObject="9C000E0D-839C-26DA-6873-AFAC9D92A10D" localFKIndex="DC4E19D2-B88A-8100-429C-8957BEED7A7E" name="RECORRE_Itinerario_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>D2C00F4F-392B-05F6-7152-2F878E90DE05</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<referredTableLongName>Itinerario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2AEB770B-722E-4756-2BFE-F13E218BED20</referredTableID>
+<keyObject>F1EAD39E-6548-CE30-8FD9-382343FB3C18</keyObject>
+<referredKeyID>F1EAD39E-6548-CE30-8FD9-382343FB3C18</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codItinerario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

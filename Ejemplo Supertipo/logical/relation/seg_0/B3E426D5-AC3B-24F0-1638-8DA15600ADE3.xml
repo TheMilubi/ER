@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CUIDA" directorySegmentName="seg_0" id="B3E426D5-AC3B-24F0-1638-8DA15600ADE3">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:13:49 UTC</createdTime>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<engineerTo>
+<item key="DEC54BEA-F010-BB31-526D-4153C226039C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>57AEAF3C-3CBF-80F9-4D5C-758EB03C6BF1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>491F2484-4779-8BF8-FD0B-B9320C061028</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fecCuidado" id="F46527DE-F709-A967-A631-A9CAEB49D638">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:13:59 UTC</createdTime>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<engineerTo>
+<item key="DEC54BEA-F010-BB31-526D-4153C226039C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

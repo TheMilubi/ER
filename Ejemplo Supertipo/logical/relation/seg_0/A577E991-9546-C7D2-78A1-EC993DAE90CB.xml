@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HABITA" directorySegmentName="seg_0" id="A577E991-9546-C7D2-78A1-EC993DAE90CB">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:09:10 UTC</createdTime>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<engineerTo>
+<item key="DEC54BEA-F010-BB31-526D-4153C226039C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9E79F5E7-2297-952E-1916-04C99F351EF8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>491F2484-4779-8BF8-FD0B-B9320C061028</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

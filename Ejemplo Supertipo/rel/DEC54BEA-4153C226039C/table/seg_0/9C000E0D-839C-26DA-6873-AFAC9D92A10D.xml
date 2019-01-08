@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C000E0D-839C-26DA-6873-AFAC9D92A10D" name="RECORRE">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Itinerario_codItinerario" id="AEE3D50F-85B6-0630-5B7D-E6802D36CB31">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D646D361-3292-A274-6789-B384C29B536E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E53B0FF-B47E-DC36-4041-505F4D7C55AB" referredColumn="3C5A37B6-339C-5631-26C8-0AE9E2CFF810"/>
+</associations>
+</Column>
+<Column name="Zona_nombre" id="14B0A0B7-DF47-6DF8-CACF-5E9CB721C740">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAFAEAEB-0E6E-A7A6-9684-57FA886BFCAE" referredColumn="DA067C88-C46E-9DD8-C9D4-01F483FB6C1A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61DE7A19-30C9-5A7F-FC31-35FE2F1812CF" name="RECORRE_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEE3D50F-85B6-0630-5B7D-E6802D36CB31"/>
+<colUsage columnID="14B0A0B7-DF47-6DF8-CACF-5E9CB721C740"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC4E19D2-B88A-8100-429C-8957BEED7A7E" name="RECORRE_Itinerario_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>D2C00F4F-392B-05F6-7152-2F878E90DE05</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEE3D50F-85B6-0630-5B7D-E6802D36CB31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="695F23C1-9CC9-9D06-AF29-A90DA3B6633C" name="RECORRE_Zona_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>D2C00F4F-392B-05F6-7152-2F878E90DE05</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14B0A0B7-DF47-6DF8-CACF-5E9CB721C740"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

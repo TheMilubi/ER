@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RESIDE" directorySegmentName="seg_0" id="C32908D4-4B83-16E2-32CC-691B990CF84F">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:09:28 UTC</createdTime>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<engineerTo>
+<item key="DEC54BEA-F010-BB31-526D-4153C226039C" value="true"/>
+</engineerTo>
+<sourcePk>82E8792E-4DCA-20FA-9790-30C072BBE25E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7313F607-BEBA-28E5-DF18-69C0C4B9AD50</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>491F2484-4779-8BF8-FD0B-B9320C061028</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

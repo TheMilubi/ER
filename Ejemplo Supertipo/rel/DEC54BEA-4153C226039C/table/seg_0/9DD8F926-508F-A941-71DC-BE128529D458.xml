@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DD8F926-508F-A941-71DC-BE128529D458" name="Habitat">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>9E79F5E7-2297-952E-1916-04C99F351EF8</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="B2ACC4FC-AA77-10CE-109C-B356301D4AC9">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>E49D802F-C1CC-2B2E-247D-5375F4FDADD9</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clima" id="740172B3-9EB5-0560-435A-A8CAEB9D0DDA">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>9F3BE7B5-6509-5C31-77A6-2F3233CAB2D9</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vegetacion" id="2FECA95C-7C2B-F937-ABE0-A260CB9702BE">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>82A5BE5D-230F-BC51-6BF2-EB1A62A2701C</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="continente" id="4B077D88-317A-22FB-6AD5-3CFA297BBB29">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>750D71D4-8AD4-06CA-FD80-0277A84962A7</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63B1FB2D-432B-BD0B-7CE1-25C2D095F17F" name="Habitat_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>CED60D49-5138-A28A-53B8-65406488E2C6</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2ACC4FC-AA77-10CE-109C-B356301D4AC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

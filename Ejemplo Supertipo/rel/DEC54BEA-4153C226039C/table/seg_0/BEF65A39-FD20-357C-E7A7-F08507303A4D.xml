@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEF65A39-FD20-357C-E7A7-F08507303A4D" name="Especie">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>491F2484-4779-8BF8-FD0B-B9320C061028</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="696EAD49-7503-45EE-C1AB-B5605B0C602C">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>F8DC937A-CB4C-1EE8-7D4E-DB0915F66C21</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreCientifico" id="1AB59B92-2513-ED5F-A81B-76B322C31B83">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>7F67AA2B-74E2-36D2-291C-3C61F163AC9B</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C948AFA8-1962-2A3F-57E1-7FFD18CD83D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="0178DA9A-CA6B-434F-2AEF-7BEF4FB4CCBD">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>703C442A-4874-7912-9744-73E9058BDE3C</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zona_nombre" id="51E2101C-8866-7620-A40C-40A1DBD76CAC">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>D43002FB-E570-AF80-0A7C-F5C969C1A3FA</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8207B7A4-9C24-97A0-3D4C-B5F26DADF7D2" referredColumn="DA067C88-C46E-9DD8-C9D4-01F483FB6C1A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EF94C15-A477-BED3-57C2-E81A4C8DDDAC" name="Especie_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>DBF9CE55-0448-A681-AB52-A55ACF19EDB5</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="696EAD49-7503-45EE-C1AB-B5605B0C602C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8ED8BCE5-1C8B-131C-6D94-4C5F033A8E9D" name="Especie_Zona_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>C32908D4-4B83-16E2-32CC-691B990CF84F</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51E2101C-8866-7620-A40C-40A1DBD76CAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

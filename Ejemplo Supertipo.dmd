@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Ejemplo Supertipo" id="EFD1C61D-B946-B614-BC56-A2521D94D6F3" version="3.5">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 18:37:13 UTC</createdTime>
+<ownerDesignName>Enunciado12</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EFD1C61D-B946-B614-BC56-A2521D94D6F3</designId>
+</OSDM_Design>

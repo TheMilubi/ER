@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5758111E-56E7-D185-6533-617BF2D940C3" name="HABITA">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Habitat_nombre" id="ECF82257-C0D0-D3E4-6829-FE0A3FF31D18">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED202759-9C4D-FAC7-BC3A-DA408EE4E3C3" referredColumn="B2ACC4FC-AA77-10CE-109C-B356301D4AC9"/>
+</associations>
+</Column>
+<Column name="Especie_nombre" id="6011E1BD-ED80-8F63-50F1-B8D447F5A5F4">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFDBC2C5-E6AC-9EB8-77DD-699E8B6B426A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F1C6493-DD1F-B908-75B1-33725A64B577" referredColumn="696EAD49-7503-45EE-C1AB-B5605B0C602C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8987658-BF65-8990-0150-D54FB95261E5" name="HABITA_PK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECF82257-C0D0-D3E4-6829-FE0A3FF31D18"/>
+<colUsage columnID="6011E1BD-ED80-8F63-50F1-B8D447F5A5F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6521E26-C92E-9DA8-189C-55150EC949C0" name="HABITA_Habitat_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>A577E991-9546-C7D2-78A1-EC993DAE90CB</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECF82257-C0D0-D3E4-6829-FE0A3FF31D18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="572B253D-6726-B14E-EBAC-BF80C4B7A8E4" name="HABITA_Especie_FK">
+<createdBy>Ruben</createdBy>
+<createdTime>2018-12-18 19:16:14 UTC</createdTime>
+<generatorID>A577E991-9546-C7D2-78A1-EC993DAE90CB</generatorID>
+<ownerDesignName>Ejemplo Supertipo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6011E1BD-ED80-8F63-50F1-B8D447F5A5F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
